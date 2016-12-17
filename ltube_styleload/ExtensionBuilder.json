@@ -1,0 +1,55 @@
+{
+    "modules": [
+
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "Load stylesheet from page property and inheritate.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "priority": "",
+            "shy": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": "6.0.0"
+        },
+        "extensionKey": "ltube_styleload",
+        "name": "Learntube Stylesheet Loader",
+        "originalExtensionKey": "",
+        "persons": [
+            {
+                "company": "Learntube",
+                "email": "typo3india@gmail.com",
+                "name": "Nirmalya Mondal",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "pi1",
+                "name": "T3e Stylesheet Loader"
+            }
+        ],
+        "vendorName": "Typo3"
+    },
+    "wires": [
+
+    ],
+    "log": {
+        "last_modified": "2014-05-19 03:15",
+        "extension_builder_version": "6.1",
+        "be_user": " (1)"
+    }
+}

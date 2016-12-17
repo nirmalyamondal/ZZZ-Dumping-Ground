@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+	<sheets>
+	    <sDEF>
+
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.tabs.general</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+
+                    <settings.videoFiles>
+                        <TCEforms>
+                            <label>LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.videoFiles</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file_reference</internal_type>
+                                <allowed>mp4,webm,ogg</allowed>
+                                <maxitems>20000</maxitems>
+                            </config>
+                        </TCEforms>
+                    </settings.videoFiles>
+
+                    <settings.posterImage>
+                        <TCEforms>
+                            <label>LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.posterImage</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file_reference</internal_type>
+                                <allowed>jpg,gif,png</allowed>
+                                <maxitems>1</maxitems>
+                            </config>
+                        </TCEforms>
+                    </settings.posterImage>
+
+                    <settings.nextPage>
+                        <TCEforms>
+                            <label>LLL:EXT:videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.nextPage</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>pages</allowed>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                            </config>
+                        </TCEforms>
+                    </settings.nextPage>
+
+										<settings.autostart>
+												<TCEforms>
+														<label>LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.autostart</label>
+														<config>
+																<type>check</type>
+																<items>
+																	<numIndex index="1">
+																		<numIndex index="0">LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.autostart</numIndex>
+																		<numIndex index="1">1</numIndex>
+																	</numIndex>
+																</items>
+														</config>
+												</TCEforms>
+										</settings.autostart>
+
+										<settings.bigButton>
+												<TCEforms>
+														<label>LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.bigButton</label>
+														<config>
+																<type>check</type>
+																<items>
+																	<numIndex index="1">
+																		<numIndex index="0">LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.bigButton</numIndex>
+																		<numIndex index="1">1</numIndex>
+																	</numIndex>
+																</items>
+														</config>
+												</TCEforms>
+										</settings.bigButton>
+
+										<settings.disallowSkip>
+												<TCEforms>
+														<label>LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.disallowSkip</label>
+														<config>
+																<type>check</type>
+																<items>
+																	<numIndex index="1">
+																		<numIndex index="0">LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.disallowSkip.forward</numIndex>
+																		<numIndex index="1">1</numIndex>
+																	</numIndex>
+																	<numIndex index="2">
+																		<numIndex index="0">LLL:EXT:t3e_videojumper/Resources/Private/Language/locallang_be.xlf:video.settings.disallowSkip.backward</numIndex>
+																		<numIndex index="1">2</numIndex>
+																	</numIndex>
+																</items>
+														</config>
+												</TCEforms>
+										</settings.disallowSkip>
+
+                </el>
+            </ROOT>
+
+	    </sDEF>
+	</sheets>
+</T3DataStructure>

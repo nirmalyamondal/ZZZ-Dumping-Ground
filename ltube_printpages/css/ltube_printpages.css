@@ -1,0 +1,33 @@
+#expand_collapse_ltb_tree ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#expand_collapse_ltb_tree li{
+    padding-left: 0.5em;
+}
+
+#expand_collapse_ltb_tree .handle {
+    background         : transparent url(spacer.png);
+    background-repeat  : no-repeat;
+    background-position: center bottom;
+    display   : block;
+    float     : left;
+    width     : 10px;
+    height    : 11px;
+	margin: 5px;
+}
+
+#expand_collapse_ltb_tree .collapsed {
+    background         : transparent url(plus.png);
+    background-repeat  : no-repeat;
+    background-position: center bottom;
+    cursor             : pointer;
+}
+#expand_collapse_ltb_tree .expanded {
+    background         : transparent url(minus.png);
+    background-repeat  : no-repeat;
+    background-position: center bottom;
+    cursor             : pointer;
+}

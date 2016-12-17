@@ -1,0 +1,15 @@
+
+plugin.tx_learntubeglossary {
+	view {
+		# cat=plugin.tx_learntubeglossary/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:learntube_glossary/Resources/Private/Templates/
+		# cat=plugin.tx_learntubeglossary/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:learntube_glossary/Resources/Private/Partials/
+		# cat=plugin.tx_learntubeglossary/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:learntube_glossary/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_learntubeglossary//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

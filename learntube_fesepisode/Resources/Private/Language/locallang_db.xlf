@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-14T18:19:37Z" product-name="learntube_fesepisode">
+		<header/>
+		<body>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episodecategory">
+				<source>Episode Category</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episodecategory.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episodecategory.icon">
+				<source>Icon (Only One)</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episodecategory.iconalttext">
+				<source>Icon Alt Text</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode">
+				<source>Episode</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.sdescription">
+				<source>Small Description</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.description">
+				<source>Detail Description</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.image">
+				<source>Image (Only One)</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.ialttext">
+				<source>Image Alt Text</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.edate">
+				<source>End Date</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.detailpage">
+				<source>Detail Page Id</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubefesepisode_domain_model_episode.sent">
+				<source>Is Sent ?</source>
+			</trans-unit>
+
+			<trans-unit id="pi_flexform.pi1_flexform_head">
+				<source>Episode Settings</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.what_to_display">
+				<source>Episode Settings</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.latest">
+				<source>Latest Episode</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.last">
+				<source>Last Four</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.detail">
+				<source>Detail View</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.archive">
+				<source>List Archive</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.subscription">
+				<source>Episode Subscription</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.show_in_detail">
+				<source>Episode for Detail View</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.subscription">
+				<source>Episode Subscription</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.detailpage">
+				<source>Episode Detail Page</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.archivepage">
+				<source>Archive Listing Page</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

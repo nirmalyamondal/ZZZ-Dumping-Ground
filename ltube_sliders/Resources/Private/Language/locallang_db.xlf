@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-04-30T15:48:18Z" product-name="ltube_sliders">
+		<header/>
+		<body>
+			<trans-unit id="tx_ltubesliders_domain_model_sliders">
+				<source>Sliders</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubesliders_domain_model_sliders.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubesliders_domain_model_sliders.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubesliders_domain_model_sliders.linktext">
+				<source>Linktext</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubesliders_domain_model_sliders.linkurl">
+				<source>Linkurl</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubesliders_domain_model_sliders.sphoto">
+				<source>Photo</source>
+			</trans-unit>			
+		</body>
+	</file>
+</xliff>

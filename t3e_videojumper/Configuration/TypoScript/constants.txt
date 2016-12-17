@@ -1,0 +1,14 @@
+plugin.tx_t3evideojumper {
+	view {
+		# cat=plugin.tx_t3evideojumper/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:t3e_videojumper/Resources/Private/Templates/
+		# cat=plugin.tx_t3evideojumper/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:t3e_videojumper/Resources/Private/Partials/
+		# cat=plugin.tx_t3evideojumper/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:t3e_videojumper/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_t3evideojumper//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

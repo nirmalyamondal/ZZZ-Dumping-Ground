@@ -1,0 +1,16 @@
+<f:layout name="Mail" />
+<f:section name="main">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>FES Online Academy:: Episode Subscription</title>
+</head>
+<body>
+<p><f:translate key="LLL:EXT:learntube_episode/Resources/Private/Language/locallang.xlf:tx_learntubeepisode_domain_model_category.dear" /> {mail.gender} {mail.fname} {mail.lname},</p>
+<p><f:link.page pageUid="{mail.pageUid}" absolute="TRUE"  additionalParams="{tx_learntubeepisode_pi1: '{ltbepihash: \'{mail.pihash}\'}'}">Click here</f:link.page> to activate your subscription or copy paste the URl below into your browser.</p>
+<p><f:uri.page pageUid="{mail.pageUid}" absolute="TRUE" additionalParams="{tx_learntubeepisode_pi1: '{ltbepihash: \'{mail.pihash}\'}'}" /></p>
+<p><f:translate key="LLL:EXT:learntube_episode/Resources/Private/Language/locallang.xlf:tx_learntubeepisode_domain_model_category.thanks" /></p>
+<p>FES Online Academy</p>
+</body>
+</html>
+</f:section>

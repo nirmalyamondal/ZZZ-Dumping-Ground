@@ -1,0 +1,466 @@
+<T3DataStructure>
+  <meta>
+    <!--<langDisable>1</langDisable>
+	<langChildren>1</langChildren>-->
+  </meta>
+<sheets>
+
+	<sDEF>
+	<ROOT>
+	<TCEforms>
+		<sheetTitle>General</sheetTitle>
+	</TCEforms>
+	<type>array</type>
+	<el>
+		
+		<switchableControllerActions>
+			<TCEforms>				
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.what_to_display</label>
+				<onChange>reload</onChange>
+				<config>
+					<type>select</type>
+					<items type="array">
+						<numIndex index="1" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcard</numIndex>
+							<numIndex index="1">Flashcard->list</numIndex>
+						</numIndex>
+						<numIndex index="2" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.drag_n_drop_einordnung</numIndex>
+							<numIndex index="1">Dndeinordnung->list</numIndex>
+						</numIndex>
+						<numIndex index="3" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.drag_n_drop_zuordnung</numIndex>
+							<numIndex index="1">Dndzuordnung->list</numIndex>
+						</numIndex>	
+						<numIndex index="4" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.quiz</numIndex>
+							<numIndex index="1">Quiz->list</numIndex>
+						</numIndex>
+						<numIndex index="5" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.question_hint_answer</numIndex>
+							<numIndex index="1">Questionhintanswer->list</numIndex>
+						</numIndex>
+						<numIndex index="6" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.dnd_ranking</numIndex>
+							<numIndex index="1">Dndrank->list</numIndex>
+						</numIndex>
+						<numIndex index="7" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.hangman</numIndex>
+							<numIndex index="1">Hangmanquestion->list</numIndex>
+						</numIndex>
+						<numIndex index="8" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.chart</numIndex>
+							<numIndex index="1">Chart->list</numIndex>
+						</numIndex>
+					</items>
+					<maxitems>1</maxitems>
+					<size>1</size>
+				</config>
+			</TCEforms>
+		</switchableControllerActions>
+
+		<settings.flashcard_in_one_line>
+			<TCEforms>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcard_in_one_line</label>
+				<config>
+					<type>select</type>
+					<items>
+						<numIndex index="0" type="array">
+							<numIndex index="0">1</numIndex>
+							<numIndex index="1">1</numIndex>
+						</numIndex>
+						<numIndex index="1">
+							<numIndex index="0">2</numIndex>
+							<numIndex index="1">2</numIndex>
+						</numIndex>
+					</items>
+					<maxitems>1</maxitems>
+					<size>1</size>
+				</config>
+			</TCEforms>
+		</settings.flashcard_in_one_line>
+
+		<settings.flashcardwidth>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcardwidth</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.flashcardwidth>
+
+
+		<settings.flashcardheight>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcardheight</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.flashcardheight>
+
+		<settings.flashcardfefcolor>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcardfefcolor</label>
+				<config>
+					<type>input</type>
+					<size>7</size>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.flashcardfefcolor>
+		<settings.flashcardfebcolor>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcardfebcolor</label>
+				<config>
+					<type>input</type>
+					<size>7</size>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.flashcardfebcolor>
+		<settings.flashcardbefcolor>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcardbefcolor</label>
+				<config>
+					<type>input</type>
+					<size>7</size>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.flashcardbefcolor>
+		<settings.flashcardbebcolor>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcardbebcolor</label>
+				<config>
+					<type>input</type>
+					<size>7</size>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.flashcardbebcolor>
+		
+		<settings.flashcardpaging>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Flashcard->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.flashcardpaging</label>
+				<config>
+					<type>check</type>
+					<default>0</default>
+				</config>
+			</TCEforms>
+		</settings.flashcardpaging>
+		
+
+		<settings.dndEinordnungLeftColumnLabel>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Dndeinordnung->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.dndEinordnungLeftColumnLabel</label>
+				<config>
+					<type>input</type>
+					<size>100</size>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.dndEinordnungLeftColumnLabel>
+
+		<settings.dndEinordnungRightColumnLabel>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Dndeinordnung->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.dndEinordnungRightColumnLabel</label>
+				<config>
+					<type>input</type>
+					<size>100</size>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.dndEinordnungRightColumnLabel>
+
+		<settings.dndEinordnungcardWidth>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Dndeinordnung->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.dndEinordnungcardWidth</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.dndEinordnungcardWidth>
+
+
+		<settings.dndEinordnungcardHeight>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Dndeinordnung->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.dndEinordnungcardHeight</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.dndEinordnungcardHeight>
+		
+
+
+		<settings.dndZuordnungcardWidth>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Dndzuordnung->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.dndZuordnungcardWidth</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.dndZuordnungcardWidth>
+
+
+		<settings.dndZuordnungcardHeight>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Dndzuordnung->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.dndZuordnungcardHeight</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.dndZuordnungcardHeight>
+
+
+		
+		<settings.quizTitle>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Quiz->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.quizTitle</label>
+				<config>
+					<type>input</type>
+					<size>30</size>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.quizTitle>
+		
+		<settings.quizBgColor>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Quiz->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.quizBgColor</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<wizards>
+						<color>
+							<type>colorbox</type>
+							<dim>20x20</dim> 
+							<tableStyle>margin-top:3px;</tableStyle>
+							<script>wizard_colorpicker.php</script> 
+							<JSopenParams>height=550,width=370,status=0,menubar=0,scrollbars=1</JSopenParams>
+							<exampleImg>gfx/wizard_colorpickerex.jpg</exampleImg>
+						</color>
+					</wizards>
+					<default>#EF7F01</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.quizBgColor>
+
+		<settings.quizcardBgColor>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Quiz->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.quizcardBgColor</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<wizards>
+						<color>
+							<type>colorbox</type>
+							<dim>20x20</dim> 
+							<tableStyle>margin-top:3px;</tableStyle>
+							<script>wizard_colorpicker.php</script> 
+							<JSopenParams>height=550,width=370,status=0,menubar=0,scrollbars=1</JSopenParams>
+							<exampleImg>gfx/wizard_colorpickerex.jpg</exampleImg>
+						</color>
+					</wizards>
+					<default>#FFFFFF</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.quizcardBgColor>
+
+		<settings.quizcardWidth>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Quiz->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.quizcardWidth</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.quizcardWidth>
+
+
+		<settings.quizcardHeight>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Quiz->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.quizcardHeight</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default></default>
+				</config>
+			</TCEforms>
+		</settings.quizcardHeight>
+
+		
+		<settings.hman_question_bg_color>
+			<TCEforms>
+				<displayCond>FIELD:switchableControllerActions:=:Hangmanquestion->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.hman_question_bg_color</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<wizards>
+						<color>
+							<type>colorbox</type>
+							<dim>20x20</dim> 
+							<tableStyle>margin-top:3px;</tableStyle>
+							<script>wizard_colorpicker.php</script> 
+							<JSopenParams>height=550,width=370,status=0,menubar=0,scrollbars=1</JSopenParams>
+							<exampleImg>gfx/wizard_colorpickerex.jpg</exampleImg>
+						</color>
+					</wizards>
+					<default>#D9F3F3</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.hman_question_bg_color>
+
+		<settings.hman_answer_bg_color>
+			<TCEforms>
+				<displayCond>FIELD:switchableControllerActions:=:Hangmanquestion->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.hman_answer_bg_color</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<wizards>
+						<color>
+							<type>colorbox</type>
+							<dim>20x20</dim>
+							<tableStyle>margin-top:3px;</tableStyle>
+							<script>wizard_colorpicker.php</script> 
+							<JSopenParams>height=550,width=370,status=0,menubar=0,scrollbars=1</JSopenParams>
+							<exampleImg>gfx/wizard_colorpickerex.jpg</exampleImg>
+						</color>
+					</wizards>
+					<default>#DBEDFF</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.hman_answer_bg_color>
+		
+		<settings.chart_type>
+			<TCEforms>
+				<displayCond>FIELD:switchableControllerActions:=:Chart->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.chart_type</label>
+				<config>
+					<type>select</type>
+					<items>
+						<numIndex index="0" type="array">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.pie_chart</numIndex>
+							<numIndex index="1">pie_chart</numIndex>
+						</numIndex>
+						<numIndex index="1">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.horizontal_bar</numIndex>
+							<numIndex index="1">horizontal_bar</numIndex>
+						</numIndex>
+						<numIndex index="2">
+							<numIndex index="0">LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.vertical_bar</numIndex>
+							<numIndex index="1">vertical_bar</numIndex>
+						</numIndex>
+					</items>
+					<maxitems>1</maxitems>
+					<size>1</size>
+				</config>
+			</TCEforms>
+		</settings.chart_type>
+
+		<settings.chart_width>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Chart->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.chartwidth</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default>200</default>
+				</config>
+			</TCEforms>
+		</settings.chart_width>
+
+		<settings.chart_height>
+			<TCEforms>				
+				<exclude>1</exclude>
+				<displayCond>FIELD:switchableControllerActions:=:Chart->list</displayCond>
+				<label>LLL:EXT:ltube_toolbox/Resources/Private/Language/locallang.xlf:pi_flexform.chartheight</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<eval>num</eval>
+					<default>200</default>
+				</config>
+			</TCEforms>
+		</settings.chart_height>
+
+	</el>
+	</ROOT>
+	</sDEF>
+
+
+
+
+</sheets>
+</T3DataStructure>

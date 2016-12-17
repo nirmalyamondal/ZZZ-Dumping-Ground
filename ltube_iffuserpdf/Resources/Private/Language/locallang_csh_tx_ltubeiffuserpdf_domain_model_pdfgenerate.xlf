@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-08-29T17:47:43Z" product-name="ltube_iffuserpdf">
+		<header/>
+		<body>
+			<trans-unit id="pdftitle.description">
+				<source>pdftitle</source>
+			</trans-unit>
+			<trans-unit id="pdffile.description">
+				<source>pdffile</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

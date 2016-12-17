@@ -1,0 +1,48 @@
+{
+    "modules": [
+
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "Learntube PDF Certificate Generate.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2\n",
+            "disableLocalization": true,
+            "disableVersioning": true,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": ""
+        },
+        "extensionKey": "ltube_pdfcertificate",
+        "name": "LMS3 Course Certificate",
+        "originalExtensionKey": "",
+        "persons": [
+
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "PdfCertificate => list",
+                    "noncacheableActions": "PdfCertificate => list",
+                    "switchableActions": ""
+                },
+                "key": "pi1",
+                "name": "LMS3 Course Certificate"
+            }
+        ],
+        "vendorName": "TYPO3"
+    },
+    "wires": [
+
+    ],
+    "log": {
+        "last_modified": "2015-06-05 05:25",
+        "extension_builder_version": "6.2.0",
+        "be_user": " (1)"
+    }
+}

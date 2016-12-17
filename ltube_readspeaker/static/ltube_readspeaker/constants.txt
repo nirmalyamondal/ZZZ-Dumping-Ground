@@ -1,0 +1,4 @@
+plugin.tx_ltubereadspeaker_pi1{
+	# cat=plugin.tx_ltubereadspeaker_pi1/file; type=file[html,tmpl]; label= Template File.
+	template	= EXT:ltube_readspeaker/pi1/templatesPi1/template.html
+}

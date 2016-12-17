@@ -1,0 +1,35 @@
+{namespace q=Tx_LtubeToolbox_ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<div id="quiz_start">
+	<div id="quiz_title">{settings.quizTitle}</div>
+	<div id="quiz_start_div" onclick="tx_toolbox_pi1_display_quiz('{divIdOfCE}');">
+		<b><f:translate key="quiz_start_button_label"></f:translate></b>
+	</div>
+</div>
+
+<ul id="tx_toolbox_quiz" qcw="{settings.quizcardWidth}" qch="{settings.quizcardHeight}" cur_lang="{cur_lang}">
+	<f:for each="{quizzes}" as="quiz" iteration="cardIterator">
+		<li id="quiz{cardIterator.cycle}">
+			<div class='question' count='{quiz_no}' ans='{quiz.right_answer}'><b>{quiz.question}</b></div>
+			<div class='answer' id='answer1'><f:format.html parseFuncTSPath="lib.parseFunc">{quiz.answer1}</f:format.html></div>
+			<div class='answer' id='answer2'><f:format.html parseFuncTSPath="lib.parseFunc">{quiz.answer2}</f:format.html></div>
+			<div class='answer' id='answer3'><f:format.html parseFuncTSPath="lib.parseFunc">{quiz.answer3}</f:format.html></div>
+			<div class='answer' id='answer4'><f:format.html parseFuncTSPath="lib.parseFunc">{quiz.answer4}</f:format.html></div>
+			<div class='hint' hc='{quiz.hint}'><f:translate key="quiz_hint_label"></f:translate></div>
+			<div class='message' msg='{quiz.feedback}'></div>
+		</li>
+	</f:for>
+</ul>
+
+<div id="quiz_result">
+	<div id="quiz_title">{settings.quizTitle}</div>
+	<div id="quiz_result_div"></div>
+	<div id="quiz_start_again_div" onclick="tx_toolbox_pi1_display_quiz_again('{divIdOfCE}');">
+		<f:translate key="quiz_start_again_button_label"></f:translate>
+	</div>
+</div>
+</f:section>

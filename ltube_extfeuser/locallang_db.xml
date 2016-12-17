@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ltube_iconmenu'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ltubeextfeuser_gender.I.0">Mr</label>
+			<label index="tx_ltubeextfeuser_gender.I.1">Mrs</label>
+			<label index="tx_ltubeextfeuser_salutation.I.0">kein Titel</label>
+			<label index="tx_ltubeextfeuser_salutation.I.1">Dr. med.</label>	
+			<label index="tx_ltubeextfeuser_salutation.I.2">Prof. Dr.</label>	
+			<label index="tx_ltubeextfeuser_salutation.I.3">PD</label>	
+			<label index="tx_ltubeextfeuser_salutation">Titel</label>
+            <label index="tx_ltubeextfeuser_gender">Anrede</label>
+			<label index="tx_ltubeextfeuser_newsletter">Newsletter</label>			
+			<label index="tx_ltubeextfeuser_function">Funktion</label>
+			<label index="tx_ltubeextfeuser_function.I.0">- Select -</label>
+			<label index="tx_ltubeextfeuser_function.I.1">Chefarzt</label>	
+			<label index="tx_ltubeextfeuser_function.I.2">Oberarzt</label>	
+			<label index="tx_ltubeextfeuser_function.I.3">Assistenzarzt</label>	
+			<label index="tx_ltubeextfeuser_function.I.4">Technischer Assistent</label>
+			<label index="tx_ltubeextfeuser_function.I.5">Physiker</label>	
+			<label index="tx_ltubeextfeuser_function.I.6">Study Nurse</label>	
+			<label index="tx_ltubeextfeuser_function.I.7">Andere</label>	
+
+			<label index="tx_ltubeextfeuser_department">Abteilung</label>
+			<label index="tx_ltubeextfeuser_department.I.0">- Select -</label>
+			<label index="tx_ltubeextfeuser_department.I.1">Gynäkologie</label>	
+			<label index="tx_ltubeextfeuser_department.I.2">Chirurgie</label>	
+			<label index="tx_ltubeextfeuser_department.I.3">Radiologie</label>	
+			<label index="tx_ltubeextfeuser_department.I.4">Strahlentherapie</label>
+			<label index="tx_ltubeextfeuser_department.I.5">Unfallchirurgie</label>	
+			<label index="tx_ltubeextfeuser_department.I.6">Neurochirurgie</label>	
+			<label index="tx_ltubeextfeuser_department.I.7">Dermatologie</label>
+			<label index="tx_ltubeextfeuser_department.I.8">Andere</label>
+
+			<label index="tx_ltubeextfeuser_zentrum">Name des Zentrums</label>
+			<label index="tx_ltubeextfeuser_ztype">Ein neues Zentrum anmelden oder als Mitarbeiter eines bestehenden Zentrums registrieren ?</label>
+			<label index="tx_ltubeextfeuser_ztype.I.0">Neues Zentrum</label>
+			<label index="tx_ltubeextfeuser_ztype.I.1">Mitarbeiter/in</label>
+		</languageKey>
+
+<!-- GERMAN -->
+
+		<languageKey index="de" type="array">
+			<label index="tx_ltubeextfeuser_gender.I.0">Herr</label>
+			<label index="tx_ltubeextfeuser_gender.I.1">Frau</label>
+			<label index="tx_ltubeextfeuser_salutation.I.0">kein Titel</label>
+			<label index="tx_ltubeextfeuser_salutation.I.1">Dr. med.</label>
+			<label index="tx_ltubeextfeuser_salutation.I.2">Prof. Dr.</label>	
+			<label index="tx_ltubeextfeuser_salutation.I.3">PD</label>	
+			<label index="tx_ltubeextfeuser_salutation">Titel</label>
+            <label index="tx_ltubeextfeuser_gender">Anrede</label>
+			<label index="tx_ltubeextfeuser_newsletter">Newsletter abonnieren</label>
+			<label index="tx_ltubeextfeuser_function">Funktion</label>
+
+			<label index="tx_ltubeextfeuser_department">Abteilung</label>
+			<label index="tx_ltubeextfeuser_zentrum">Name des Zentrums</label>
+			<label index="tx_ltubeextfeuser_ztype">Ein neues Zentrum anmelden oder als Mitarbeiter eines bestehenden Zentrums registrieren ?</label>
+			<label index="tx_ltubeextfeuser_ztype.I.0">Neues Zentrum</label>
+			<label index="tx_ltubeextfeuser_ztype.I.1">Mitarbeiter/in</label>
+		</languageKey>
+	</data>
+</T3locallang>

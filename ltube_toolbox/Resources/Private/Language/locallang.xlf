@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">	
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-30T05:59:13Z" product-name="ltube_toolbox">
+		<header/>
+		<body>
+			<trans-unit id="quiz_start_button_label" xml:space="preserve">
+				<source>Start the Quiz</source>
+			</trans-unit>
+			<trans-unit id="quiz_hint_label" xml:space="preserve">
+				<source>Hint</source>
+			</trans-unit>
+			<trans-unit id="quiz_start_again_button_label" xml:space="preserve">
+				<source>Start Quiz Again</source>
+			</trans-unit>
+			<trans-unit id="reveal_answer_button_label" xml:space="preserve">
+				<source>Show Answer</source>
+			</trans-unit>
+			<trans-unit id="answer_label" xml:space="preserve">
+				<source>Answer</source>
+			</trans-unit>
+			<trans-unit id="question_label" xml:space="preserve">
+				<source>Question</source>
+			</trans-unit>
+			<trans-unit id="hint_label" xml:space="preserve">
+				<source>Hint</source>
+			</trans-unit>
+			<trans-unit id="check_rank_button" xml:space="preserve">
+				<source>Check Rank</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.what_to_display" xml:space="preserve">
+				<source>Style</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.flashcard" xml:space="preserve">
+				<source>Flashcard</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.drag_n_drop_einordnung" xml:space="preserve">
+				<source>Drag+Drop Einordnung</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.drag_n_drop_zuordnung" xml:space="preserve">
+				<source>Drag+Drop Zuordnung</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.quiz" xml:space="preserve">
+				<source>Quiz</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.question_hint_answer" xml:space="preserve">
+				<source>Question-Hint-Answer</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dnd_ranking" xml:space="preserve">
+				<source>Drag+Drop Ranking</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.hangman" xml:space="preserve">
+				<source>Hangman</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.chart" xml:space="preserve">
+				<source>Chart</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.flashcard_in_one_line" xml:space="preserve">
+				<source>Flashcards in one line</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.flashcardwidth" xml:space="preserve">
+				<source>Flashcard Width(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.flashcardheight" xml:space="preserve">
+				<source>Flashcard Height(px)</source>
+			</trans-unit>
+
+			<trans-unit id="pi_flexform.flashcardfefcolor" xml:space="preserve">
+				<source>Flashcard Frontend Font Color</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.flashcardfebcolor" xml:space="preserve">
+				<source>Flashcard Frontend Background Color</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.flashcardbefcolor" xml:space="preserve">
+				<source>Flashcard Backend Font Color</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.flashcardbebcolor" xml:space="preserve">
+				<source>Flashcard Backend Background Color</source>
+			</trans-unit>
+
+			<trans-unit id="pi_flexform.flashcardpaging" xml:space="preserve">
+				<source>Show in quiz modus</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dndEinordnungLeftColumnLabel" xml:space="preserve">
+				<source>Left Column Label</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dndEinordnungRightColumnLabel" xml:space="preserve">
+				<source>Right Column Label</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dndEinordnungcardWidth" xml:space="preserve">
+				<source>Dnd Card Width(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dndEinordnungcardHeight" xml:space="preserve">
+				<source>Dnd Card Height(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dndZuordnungcardWidth" xml:space="preserve">
+				<source>Dnd Card Width(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dndZuordnungcardHeight" xml:space="preserve">
+				<source>Dnd Card Height(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.quizTitle" xml:space="preserve">
+				<source>Quiz Title</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.quizBgColor" xml:space="preserve">
+				<source>Quiz Bg Color</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.quizcardBgColor" xml:space="preserve">
+				<source>Quiz Card Bg Color</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.quizcardWidth" xml:space="preserve">
+				<source>Quiz Card Width(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.quizcardHeight" xml:space="preserve">
+				<source>Quiz Card Height(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.dnd_rank_bg_color" xml:space="preserve">
+				<source>DND rank bg color</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.question_bg_color" xml:space="preserve">
+				<source>Question bg color</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.chart_type" xml:space="preserve">
+				<source>Chart Type</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.pie_chart" xml:space="preserve">
+				<source>Pie Chart</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.chartwidth" xml:space="preserve">
+				<source>Chart Width(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.chartheight" xml:space="preserve">
+				<source>Chart Height(px)</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.horizontal_bar" xml:space="preserve">
+				<source>Horizontal Bar</source>
+			</trans-unit>
+			<trans-unit id="pi_flexform.vertical_bar" xml:space="preserve">
+				<source>Vertical Bar</source>
+			</trans-unit>
+			<trans-unit id="hman_right_ans_msg" xml:space="preserve">
+				<source>You are right.</source>
+			</trans-unit>
+			<trans-unit id="hman_wrong_ans_msg" xml:space="preserve">
+				<source>You are wrong!</source>
+			</trans-unit>
+			<trans-unit id="hman_guess_msg" xml:space="preserve">
+				<source>You've already guessed that letter! Guess again!</source>
+			</trans-unit>
+			<trans-unit id="hangman_play_button" xml:space="preserve">
+				<source>Play</source>
+			</trans-unit>
+			<trans-unit id="flashcard_button_label" xml:space="preserve">
+				<source>Click</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

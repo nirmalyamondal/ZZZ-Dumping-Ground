@@ -1,0 +1,138 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    147,
+                    131
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+
+                    ]
+                },
+                "name": "Sliders",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "980881604700"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "uid": "351734814656"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "description",
+                            "propertyType": "RichText",
+                            "uid": "1022952438426"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "linktext",
+                            "propertyType": "String",
+                            "uid": "593691232555"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "linkurl",
+                            "propertyType": "String",
+                            "uid": "574274640358"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+
+                    ]
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "Slider with IRRE",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "extbase => 6.0\nfluid => 6.0\ntypo3 => 6.0\n",
+            "disableLocalization": true,
+            "disableVersioning": true,
+            "priority": "",
+            "shy": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.0",
+            "version": "6.0.0"
+        },
+        "extensionKey": "ltube_sliders",
+        "name": "LTB Sliders",
+        "originalExtensionKey": "ltube_sliders",
+        "persons": [
+            {
+                "company": "Learntube",
+                "email": "nmondal@learntube.de",
+                "name": "Nirmalya Mondal",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Sliders=>list\n",
+                    "noncacheableActions": "Sliders=>list\n",
+                    "switchableActions": ""
+                },
+                "key": "pi1",
+                "name": "Aqualug Slider"
+            }
+        ],
+        "vendorName": "TYPO3"
+    },
+    "wires": [
+
+    ],
+    "log": {
+        "last_modified": "2014-04-30 03:48",
+        "extension_builder_version": "6.1",
+        "be_user": " (1)"
+    }
+}

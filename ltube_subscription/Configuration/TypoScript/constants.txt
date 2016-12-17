@@ -1,0 +1,15 @@
+
+plugin.tx_ltubesubscription {
+	view {
+                # cat=plugin.tx_ltubesubscription/file; type=string; label=Path to template root (FE)
+                templateRootPath = EXT:ltube_subscription/Resources/Private/Templates/
+                # cat=plugin.tx_ltubesubscription/file; type=string; label=Path to template partials (FE)
+                partialRootPath = EXT:ltube_subscription/Resources/Private/Partials/
+                # cat=plugin.tx_ltubesubscription/file; type=string; label=Path to template layouts (FE)
+                layoutRootPath = EXT:ltube_subscription/Resources/Private/Layouts/
+	}
+	persistence {
+                # cat=plugin.tx_ltubesubscription//a; type=string; label=Default storage PID
+                #storagePid =
+	}
+}

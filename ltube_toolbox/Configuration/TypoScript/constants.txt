@@ -1,0 +1,51 @@
+plugin.tx_ltubetoolbox {
+	settings {
+		libraries {
+			# cat=Toolbox: General/settings/3000; type=boolean; label=Load jQuery : Load jQuery library
+			jquery = 1
+
+			# cat=Toolbox: General/settings/3010; type=boolean; label=Load jQuery UI: Load jQuery library
+			jqueryui = 1
+
+			# cat=Toolbox: General/settings/3020; type=boolean; label=Load Flip: Load Flip library
+			flip = 1
+
+			# cat=Toolbox: General/settings/3030; type=boolean; label=Load Flashcard: Load Jcrop library
+			flashcard = 1
+
+			# cat=Toolbox: General/settings/3040; type=boolean; label=Load Paging: Load Pgination library
+			paging = 1
+
+			# cat=Toolbox: General/settings/3040; type=boolean; label=Load Paging call: Load Pgination library
+			pagination = 1
+
+			# cat=Toolbox: General/settings/3050; type=boolean; label=Load D&D call: Load D&D library
+			dnd = 1
+
+			# cat=Toolbox: General/settings/3060; type=boolean; label=Load Quiz call: Load Quiz library
+			quiz = 1
+
+			# cat=Toolbox: General/settings/3070; type=boolean; label=Load Qha call: Load Qha library
+			qha = 1
+
+			# cat=Toolbox: General/settings/3080; type=boolean; label=Load Dndrank call: Load Dndrank library
+			dndrank = 1
+
+			# cat=Toolbox: General/settings/3090; type=boolean; label=Load Hangman call: Load Hangman library
+			hangman = 1
+		}
+	}
+
+	view {
+		# cat=plugin.tx_ltubetoolbox/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ltube_toolbox/Resources/Private/Templates/
+		# cat=plugin.tx_ltubetoolbox/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ltube_toolbox/Resources/Private/Partials/
+		# cat=plugin.tx_ltubetoolbox/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ltube_toolbox/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ltubetoolbox//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

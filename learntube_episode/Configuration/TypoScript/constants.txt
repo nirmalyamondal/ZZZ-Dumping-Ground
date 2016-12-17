@@ -1,0 +1,15 @@
+
+plugin.tx_learntubeepisode {
+	view {
+		# cat=plugin.tx_learntubeepisode/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:learntube_episode/Resources/Private/Templates/
+		# cat=plugin.tx_learntubeepisode/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:learntube_episode/Resources/Private/Partials/
+		# cat=plugin.tx_learntubeepisode/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:learntube_episode/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_learntubeepisode//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

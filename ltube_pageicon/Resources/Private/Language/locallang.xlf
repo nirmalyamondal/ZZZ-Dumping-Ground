@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-31T16:01:33Z" product-name="ltube_pageicon">
+		<header/>
+		<body>
+			<trans-unit id="page_type_71">
+				<source>T3e Module Config</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

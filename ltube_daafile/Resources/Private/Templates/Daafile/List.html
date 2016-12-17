@@ -1,0 +1,32 @@
+==========================================
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<div class="daafile-content">
+<ul>
+<!-- 	<f:for each="{daafiles}" as="daafile">
+		<div id="<f:format.html parseFuncTSPath='lib.parseFunc'>ltube_jswiki_element_{daafile.uid}</f:format.html>" class="daafileContainer"><div class="bg"></div></div>
+	</f:for> 
+-->
+	<f:for each="{daafiles}" as="daafile">
+		<!--li>
+			<f:format.html parseFuncTSPath="lib.parseFunc">{daafile.sphoto}</f:format.html><f:format.html parseFuncTSPath="lib.parseFunc">{daafile.title}</f:format.html></a>
+		</li-->
+		<li>
+			<a href="<f:uri.page additionalParams="{ltube_daafile: {file: '{daafile.file}'}}" />" target="_new"><f:format.html parseFuncTSPath="lib.parseFunc">{daafile.title}</f:format.html></a>
+		</li>
+	</f:for>
+</ul>
+</div>
+</f:section>

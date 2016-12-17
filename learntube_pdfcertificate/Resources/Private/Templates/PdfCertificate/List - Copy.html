@@ -1,0 +1,34 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<f:flashMessages renderMode="div" />
+
+<!--table  class="tx_ltubepdfcertificate" >
+	<tr>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{pdfCertificates}" as="pdfCertificate">
+		<tr>
+			<td><f:link.action action="edit" arguments="{pdfCertificate : pdfCertificate}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{pdfCertificate : pdfCertificate}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table-->
+
+<!--f:link.action action="download" arguments="{pdfCertificate : pdfCertificate}">New PdfCertificate</f:link.action-->
+<f:link.page pageUid="{pdfCertificates}">Download Certificate</f:link.page>
+</f:section>

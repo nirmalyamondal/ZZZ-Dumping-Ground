@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-04-30T15:48:18Z" product-name="ltube_daafile">
+		<header/>
+		<body>
+			<trans-unit id="tx_ltubedaafile_domain_model_daafile">
+				<source>Daafile</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubedaafile_domain_model_daafile.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubedaafile_domain_model_daafile.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubedaafile_domain_model_daafile.linktext">
+				<source>Link Text</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubedaafile_domain_model_daafile.linkurl">
+				<source>Link URL</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubedaafile_domain_model_daafile.sphoto">
+				<source>Photo</source>
+			</trans-unit>			
+		</body>
+	</file>
+</xliff>

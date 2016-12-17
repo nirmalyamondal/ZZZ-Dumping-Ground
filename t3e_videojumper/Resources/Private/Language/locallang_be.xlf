@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-05T09:03:06Z" product-name="videojumper">
+		<header/>
+		<body>
+
+            <trans-unit id="video.tabs.general">
+                <source>General</source>
+            </trans-unit>
+            <trans-unit id="video.settings.videoFiles">
+                <source>Video</source>
+            </trans-unit>
+            <trans-unit id="video.settings.nextPage">
+                <source>Next page</source>
+            </trans-unit>
+            <trans-unit id="video.settings.posterImage">
+                <source>Poster image</source>
+            </trans-unit>
+            <trans-unit id="video.settings.autostart">
+								<source>Autostart</source>
+						</trans-unit>
+						<trans-unit id="video.settings.bigButton">
+								<source>Big Play/Pause button</source>
+						</trans-unit>
+						<trans-unit id="video.settings.disallowSkip">
+								<source>Disallow skipping</source>
+						</trans-unit>
+						<trans-unit id="video.settings.disallowSkip.forward">
+								<source>Disallow skipping forward</source>
+						</trans-unit>
+						<trans-unit id="video.settings.disallowSkip.backward">
+								<source>Disallow skipping backward</source>
+						</trans-unit>
+
+						<trans-unit id="t3evideojumper_title">
+								<source>T3e Videojumper</source>
+						</trans-unit>
+						<trans-unit id="t3evideojumper_plus_wiz_description">
+								<source>Plugin for embedding Video contents to a page and go to another page when the video ended.</source>
+						</trans-unit>
+
+		</body>
+	</file>
+</xliff>

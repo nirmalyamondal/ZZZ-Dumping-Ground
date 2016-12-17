@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-03T13:45:57Z" product-name="ltube_toolbox">
+		<header/>
+		<body>
+
+			<trans-unit id="dnd_card_name.description">
+				<source>dndCardName</source>
+			</trans-unit>
+			<trans-unit id="dnd_card_left_content.description">
+				<source>dndCardLeftContent</source>
+			</trans-unit>
+			<trans-unit id="dnd_card_right_content.description">
+				<source>dndCardRightContent</source>
+			</trans-unit>
+			<trans-unit id="dnd_card_bg_color.description">
+				<source>dndCardBgColor</source>
+			</trans-unit>
+			<trans-unit id="parentid.description">
+				<source>parentid</source>
+			</trans-unit>
+			<trans-unit id="parenttable.description">
+				<source>parenttable</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

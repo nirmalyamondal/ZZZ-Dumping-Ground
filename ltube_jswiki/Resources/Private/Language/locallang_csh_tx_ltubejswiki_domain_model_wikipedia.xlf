@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-11T10:47:22Z" product-name="ltube_jswiki">
+		<header/>
+		<body>
+
+			<trans-unit id="wiki_title.description">
+				<source>wikiTitle</source>
+			</trans-unit>
+			<trans-unit id="show_title.description">
+				<source>showTitle</source>
+			</trans-unit>
+			<trans-unit id="max_thumbnails.description">
+				<source>maxThumbnails</source>
+			</trans-unit>
+			<trans-unit id="cut_first_info_table_rows.description">
+				<source>cutFirstInfoTableRows</source>
+			</trans-unit>
+			<trans-unit id="max_info_table_rows.description">
+				<source>maxInfoTableRows</source>
+			</trans-unit>
+			<trans-unit id="thumb_max_width.description">
+				<source>thumbMaxWidth</source>
+			</trans-unit>
+			<trans-unit id="thumb_max_height.description">
+				<source>thumbMaxHeight</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

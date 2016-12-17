@@ -1,0 +1,36 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Detail.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h3>Detail View Of Episode</h3>
+<f:flashMessages renderMode="div" />
+<div class="box2">
+	<div class="featured-banners">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="featured-banner-head clearfix">
+					<div class="featured-banner-icon"><f:image image="{episodes.caticonObject}" alt="{episodes.caticonAlt}" /></div>
+					<h5><f:format.date format="d.m.Y">{episodes.edate}</f:format.date></h5>
+					<h4>{episodes.catname}</h4>
+				</div>
+				<div class="pic-banner"><f:image image="{episodes.imageObject}" alt="{episodes.ialttext}" /></div>
+			</div><!--col-sm-3-->				
+			<div class="col-sm-9">
+				<h3>{episodes.name}</h3>
+				<f:format.html>{episodes.description}</f:format.html>
+				<!--div class="text-right"><div class="btn btn-more"><f:link.page pageUid="{episodes.detailpage}" noCacheHash="TRUE" noCache="TRUE">Zum aktuellen Snack</f:link.page></div></div-->
+			</div><!--col-sm-9-->
+		</div>
+	</div><!--featured-banners-->
+</div>
+</f:section>

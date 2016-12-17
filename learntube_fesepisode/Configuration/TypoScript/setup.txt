@@ -1,0 +1,15 @@
+
+plugin.tx_learntubefesepisode {
+	view {
+		templateRootPath = {$plugin.tx_learntubefesepisode.view.templateRootPath}
+		partialRootPath = {$plugin.tx_learntubefesepisode.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_learntubefesepisode.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_learntubefesepisode.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}

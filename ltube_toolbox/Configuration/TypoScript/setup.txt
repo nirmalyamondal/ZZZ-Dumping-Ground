@@ -1,0 +1,195 @@
+plugin.tx_ltubetoolbox {
+	view {
+		templateRootPath = {$plugin.tx_ltubetoolbox.view.templateRootPath}
+		partialRootPath = {$plugin.tx_ltubetoolbox.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_ltubetoolbox.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_ltubetoolbox.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+
+}
+
+
+plugin.tx_ltubetoolbox.settings {
+	include_toolbox_css		= 1
+	include_jchartfx_css		= 1
+	inclde_flip_min_js		= 1
+	inclde_flipcard_js		= 1
+	include_flexipage_js		= 1
+	inclde_paging_js		= 1
+	inclde_drag_n_drop_js		= 1
+	inclde_quiz_js			= 1
+	inclde_qha_js			= 1
+	inclde_dnd_rank_js		= 1
+	inclde_hangman_js		= 1
+	inclde_jchart_system_js		= 1
+	inclde_jchart_coreVector_js	= 1
+	inclde_jchart_coreVector3d	= 1
+	inclde_jchart_advanced_js	= 1
+	inclde_jchart_animation_js	= 1
+	inclde_jchart_chart_js		= 1
+
+	toolbox_css		= typo3conf/ext/ltube_toolbox/Resources/Public/css/toolbox.css
+	jchartfx_css		= typo3conf/ext/ltube_toolbox/Resources/Public/css/jchartfx.css
+	flip_min_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/jquery.flip.min.js
+	flipcard_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/flipcard.js
+	flexipage_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/jquery.flexipage.js
+	paging_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/paging.js
+	drag_n_drop_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/drag_n_drop.js
+	quiz_js			= typo3conf/ext/ltube_toolbox/Resources/Public/js/quiz.js
+	qha_js			= typo3conf/ext/ltube_toolbox/Resources/Public/js/qha.js
+	dnd_rank_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/dnd_rank.js
+	hangman_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/hangman.js
+	jchart_system_js	= typo3conf/ext/ltube_toolbox/Resources/Public/js/jchartfx.system.js
+	jchart_coreVector_js	= typo3conf/ext/ltube_toolbox/Resources/Public/js/jchartfx.coreVector.js
+	jchart_coreVector3d	= typo3conf/ext/ltube_toolbox/Resources/Public/js/jchartfx.coreVector3d.js
+	jchart_advanced_js	= typo3conf/ext/ltube_toolbox/Resources/Public/js/jchartfx.advanced.js
+	jchart_animation_js	= typo3conf/ext/ltube_toolbox/Resources/Public/js/jchartfx.animation.js
+	jchart_chart_js		= typo3conf/ext/ltube_toolbox/Resources/Public/js/chart.js
+}
+
+
+plugin.tx_ltubetoolbox._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-ltube-toolbox table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-ltube-toolbox table th {
+		font-weight:bold;
+	}
+
+	.tx-ltube-toolbox table td {
+		vertical-align:top;
+	}
+)
+
+
+
+
+
+
+
+
+
+
+## Include jQuery library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.jquery}]
+  #page.includeJSlibs.jquery = EXT:ltube_toolbox/Resources/Public/js/jquery-1.7.2.min.js
+  #page.includeJSlibs.jquery.disableCompression = 1
+[global]
+
+
+## Include jQuery library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.jqueryui}]
+  #page.includeJSlibs.jqueryui = EXT:ltube_toolbox/Resources/Public/js/jquery-ui.min.js
+  #page.includeJSlibs.jqueryui.disableCompression = 1
+[global]
+
+
+## Include Flip library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.flip}]
+  #page.includeJSlibs.flip = EXT:ltube_toolbox/Resources/Public/js/jquery.flip.min.js
+  #page.includeJSlibs.flip.disableCompression = 1
+[global]
+
+
+## Include Flashcard library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.flashcard}]
+  #page.includeJSlibs.flashcard = EXT:ltube_toolbox/Resources/Public/js/flipcard.js
+  #page.includeJSlibs.flashcard.disableCompression = 1
+  #page.includeCSS.flashcard = EXT:ltube_toolbox/Resources/Public/css/toolbox.css
+[global]
+
+## Include Paging library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.paging}]
+  #page.includeJSlibs.paging = EXT:ltube_toolbox/Resources/Public/js/jquery.flexipage.js
+  #page.includeJSlibs.paging.disableCompression = 1
+[global]
+
+
+## Include Pagination library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.pagination}]
+  #page.includeJSlibs.pagination = EXT:ltube_toolbox/Resources/Public/js/paging.js
+  #page.includeJSlibs.pagination.disableCompression = 1
+[global]
+
+
+## Include DND library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.dnd}]
+  #page.includeJSlibs.dnd = EXT:ltube_toolbox/Resources/Public/js/drag_n_drop.js
+  #page.includeJSlibs.dnd.disableCompression = 1
+[global]
+
+## Include Quiz library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.quiz}]
+  #page.includeJSlibs.quiz = EXT:ltube_toolbox/Resources/Public/js/quiz.js
+  #page.includeJSlibs.quiz.disableCompression = 1
+[global]
+
+## Include Qha library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.qha}]
+  #page.includeJSlibs.qha = EXT:ltube_toolbox/Resources/Public/js/qha.js
+  #page.includeJSlibs.qha.disableCompression = 1
+[global]
+
+## Include Qha library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.dndrank}]
+  #page.includeJSlibs.dndrank = EXT:ltube_toolbox/Resources/Public/js/dnd_rank.js
+  #page.includeJSlibs.dndrank.disableCompression = 1
+[global]
+
+## Include Qha library
+[globalVar = LIT:1 = {$plugin.tx_ltubetoolbox.settings.libraries.hangman}]
+  #page.includeJSlibs.hangman = EXT:ltube_toolbox/Resources/Public/js/hangman.js
+  #page.includeJSlibs.hangman.disableCompression = 1
+[global]
+
+
+/*
+plugin.tx_ltubetoolbox.settings = COA
+ltubetoolbox_ajax = PAGE
+ltubetoolbox_ajax {
+    typeNum = 9163
+    config {
+        disableAllHeaderCode = 1
+        additionalHeaders = Content-type:application/html
+        xhtml_cleaning = 0
+        admPanel = 0
+    }
+    10 < tt_content.list.20.ltubetoolbox_pi1
+}
+*/
+
+
+
+temp.ltbe_ajax_conf = PAGE
+temp.ltbe_ajax_conf {
+    typeNum = 9100353088
+    config {
+        disableAllHeaderCode = 1
+        xhtml_cleaning = 0
+        admPanel = 0
+    }
+}
+
+ltubetoolbox_ajax < temp.ltbe_ajax_conf
+ltubetoolbox_ajax {
+    typeNum = 9163
+    10 < styles.content.get
+}

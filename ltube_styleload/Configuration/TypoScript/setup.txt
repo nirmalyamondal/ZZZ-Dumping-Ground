@@ -1,0 +1,6 @@
+[globalVar = TSFE:page|tx_ltubestyleload_parent = 0]
+page.headerData.90909 = TEXT
+page.headerData.90909.data = levelfield : -1, tx_ltubestyleload_file, slide
+page.headerData.90909.stdWrap.wrap = <link rel="stylesheet" type="text/css" href="uploads/tx_ltubestyleload/|" media="all">
+page.headerData.90909.stdWrap.required = 1
+[end]

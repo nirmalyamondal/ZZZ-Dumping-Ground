@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-10-07T12:36:56Z" product-name="learntube_episode">
+		<header/>
+		<body>
+			<trans-unit id="tx_learntubeepisode_domain_model_category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_category.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_category.icon">
+				<source>Icon</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_category.iconalttext">
+				<source>Iconalttext</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode">
+				<source>Episode</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.sdescription">
+				<source>Sdescription</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.ialttext">
+				<source>Ialttext</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.edate">
+				<source>Edate</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.detailpage">
+				<source>Detailpage</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.sent">
+				<source>Sent</source>
+			</trans-unit>
+			<trans-unit id="error.fname">
+				<source>Invalid First Name</source>
+			</trans-unit>
+			<trans-unit id="error.lname">
+				<source>Invalid Last Name</source>
+			</trans-unit>
+			<trans-unit id="error.email">
+				<source>Invalid Email</source>
+			</trans-unit>
+			<trans-unit id="error.captcha">
+				<source>Invalid Captcha</source>
+			</trans-unit>
+			<trans-unit id="error.emailExist">
+				<source>Email already Exist.</source>
+			</trans-unit>
+			<trans-unit id="error.emailNotExist">
+				<source>Email Doesn't exist</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.thanksSubscription">
+				<source>Thanks for subscription</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_episode.thanksUnubscription">
+				<source>Thanks for Unsubscription</source>
+			</trans-unit>
+			<trans-unit id="subscribe.subject">
+				<source>Subscription Successful.</source>
+			</trans-unit>
+			<trans-unit id="unsubscribe.subject">
+				<source>Un-Subscription Successful.</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_category.dear">
+				<source>Dear</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeepisode_domain_model_category.thanks">
+				<source>Thank you</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

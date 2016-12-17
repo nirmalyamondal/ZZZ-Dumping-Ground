@@ -1,0 +1,28 @@
+
+plugin.tx_learntubepdfcertificate {
+	view {
+		templateRootPath = {$plugin.tx_learntubepdfcertificate.view.templateRootPath}
+		partialRootPath = {$plugin.tx_learntubepdfcertificate.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_learntubepdfcertificate.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_learntubepdfcertificate.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+config.tx_extbase.persistence.classes {
+
+    TYPO3\LtubePdfcertificate\Domain\Model\Page {
+        mapping {
+            tableName = pages
+            columns {
+                    txLtubetopicsystemTopic.mapOnProperty = tx_learntubetopicsystem_topic
+                    doktype.mapOnProperty = doktype
+            }
+        }
+    }
+}
