@@ -1,0 +1,25 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<div class="list-items">
+<f:flashMessages renderMode="div" />
+	<f:for each="{accordions}" as="accordion">
+		<dl>
+			<dt><f:format.html parseFuncTSPath="lib.parseFunc">{accordion.title}</f:format.html></dt>
+			<dd><div class="descriptionone"><f:format.html parseFuncTSPath="lib.parseFunc_RTE">{accordion.description}</f:format.html></div><f:if condition="{accordion.descriptiontwo}"><a href="javascript:void();" onclick="javascript:jQuery('div.ltubewegacc_{accordion.uid}').toggle();jQuery(this).toggle();">Mehr ...</a><div class="descriptiontwo ltubewegacc_{accordion.uid}" style="display:none;"><f:format.html parseFuncTSPath="lib.parseFunc_RTE">{accordion.descriptiontwo}</f:format.html></div></f:if></dd>
+		</dl>
+	</f:for>
+</div>
+</f:section>

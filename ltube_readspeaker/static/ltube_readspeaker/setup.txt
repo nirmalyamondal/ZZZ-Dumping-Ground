@@ -1,0 +1,4 @@
+plugin.tx_ltubereadspeaker_pi1{
+    template    = {$plugin.tx_ltubereadspeaker_pi1.template}
+    javascript    = http://f1.eu.readspeaker.com/script/6422/rs_embhl_v2_de_de.js
+}

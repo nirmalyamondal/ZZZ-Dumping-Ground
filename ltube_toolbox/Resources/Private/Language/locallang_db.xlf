@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-30T05:59:14Z" product-name="ltube_toolbox">
+		<header/>
+		<body>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard" xml:space="preserve">
+				<source>Flashcard</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.fcard_name" xml:space="preserve">
+				<source>Fcard Name</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.fe_content" xml:space="preserve">
+				<source>Fe Content</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.be_content" xml:space="preserve">
+				<source>Be Content</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.fe_font_color" xml:space="preserve">
+				<source>Fe Font Color</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.be_font_color" xml:space="preserve">
+				<source>Be Font Color</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.fe_bg_color" xml:space="preserve">
+				<source>Fe Bg Color</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.be_bg_color" xml:space="preserve">
+				<source>Be Bg Color</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.flip_dir" xml:space="preserve">
+				<source>Flip Dir</source>
+			</trans-unit>
+			<trans-unit id="flashcard.flip_dir.I.0" xml:space="preserve">
+				<source>-- Select --</source>
+			</trans-unit>
+			<trans-unit id="flashcard.flip_dir.I.1" xml:space="preserve">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="flashcard.flip_dir.I.2" xml:space="preserve">
+				<source>Right</source>
+			</trans-unit>
+			<trans-unit id="flashcard.flip_dir.I.3" xml:space="preserve">
+				<source>Top/bottom</source>
+			</trans-unit>
+			<trans-unit id="flashcard.flip_dir.I.4" xml:space="preserve">
+				<source>Bottom/top</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_flashcard.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordnung" xml:space="preserve">
+				<source>Dndeinordnung</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordnung.dnd_card_name" xml:space="preserve">
+				<source>Dnd Card Name</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordnung.dnd_card_content" xml:space="preserve">
+				<source>Dnd Card Content</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordnung.dnd_card_bgcolor" xml:space="preserve">
+				<source>Dnd Card Bgcolor</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordnung.dnd_card_match_column" xml:space="preserve">
+				<source>Dnd Card Match Column</source>
+			</trans-unit>
+			<trans-unit id="einordnung.match_column.I.0" xml:space="preserve">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="einordnung.match_column.I.1" xml:space="preserve">
+				<source>Right</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordnung.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordnung.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordngfeedback" xml:space="preserve">
+				<source>Dndeinordngfeedback</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordngfeedback.feedback_message" xml:space="preserve">
+				<source>Feedback Message</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordngfeedback.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndeinordngfeedback.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnung" xml:space="preserve">
+				<source>Dndzuordnung</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnung.dnd_card_name" xml:space="preserve">
+				<source>Dnd Card Name</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnung.dnd_card_left_content" xml:space="preserve">
+				<source>Dnd Card Left Content</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnung.dnd_card_right_content" xml:space="preserve">
+				<source>Dnd Card Right Content</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnung.dnd_card_bg_color" xml:space="preserve">
+				<source>Dnd Card Bg Color</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnung.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnung.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnungfeedback" xml:space="preserve">
+				<source>Dndzuordnungfeedback</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnungfeedback.feedback_message" xml:space="preserve">
+				<source>Feedback Message</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnungfeedback.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndzuordnungfeedback.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz" xml:space="preserve">
+				<source>Quiz</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.question" xml:space="preserve">
+				<source>Question</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.answer1" xml:space="preserve">
+				<source>Answer1</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.answer2" xml:space="preserve">
+				<source>Answer2</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.answer3" xml:space="preserve">
+				<source>Answer3</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.answer4" xml:space="preserve">
+				<source>Answer4</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.hint" xml:space="preserve">
+				<source>Hint</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.right_ans_feedback" xml:space="preserve">
+				<source>Right Ans Feedback</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.right_answer" xml:space="preserve">
+				<source>Right Answer</source>
+			</trans-unit>
+			<trans-unit id="right_answer.I.0" xml:space="preserve">
+				<source>-- Select --</source>
+			</trans-unit>
+			<trans-unit id="right_answer.I.1" xml:space="preserve">
+				<source>Answer1</source>
+			</trans-unit>
+			<trans-unit id="right_answer.I.2" xml:space="preserve">
+				<source>Answer2</source>
+			</trans-unit>
+			<trans-unit id="right_answer.I.3" xml:space="preserve">
+				<source>Answer3</source>
+			</trans-unit>
+			<trans-unit id="right_answer.I.4" xml:space="preserve">
+				<source>Answer4</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_quiz.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_questionhintanswer" xml:space="preserve">
+				<source>Questionhintanswer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_questionhintanswer.question" xml:space="preserve">
+				<source>Question</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_questionhintanswer.answer" xml:space="preserve">
+				<source>Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_questionhintanswer.hint" xml:space="preserve">
+				<source>Hint</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_questionhintanswer.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_questionhintanswer.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hint" xml:space="preserve">
+				<source>Hint</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hint.hint" xml:space="preserve">
+				<source>Hint</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hint.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hint.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrank" xml:space="preserve">
+				<source>Dndrank</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrank.question" xml:space="preserve">
+				<source>Question</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrank.answer" xml:space="preserve">
+				<source>Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrank.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrank.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrankanswer" xml:space="preserve">
+				<source>Dndrankanswer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrankanswer.answer" xml:space="preserve">
+				<source>Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrankanswer.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_dndrankanswer.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmanquestion" xml:space="preserve">
+				<source>Hangmanquestion</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmanquestion.question" xml:space="preserve">
+				<source>Question</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmanquestion.amount_of_try" xml:space="preserve">
+				<source>Amount Of Try</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmanquestion.answer" xml:space="preserve">
+				<source>Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmanquestion.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmanquestion.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmananswer" xml:space="preserve">
+				<source>Hangmananswer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmananswer.answer" xml:space="preserve">
+				<source>Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmananswer.parentid" xml:space="preserve">
+				<source>Parentid</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_hangmananswer.parenttable" xml:space="preserve">
+				<source>Parenttable</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_chart">
+				<source>Chart</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_chart.name">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_chart.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_chart.value">
+				<source>value</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubetoolbox_domain_model_chart.color">
+				<source>color</source>
+			</trans-unit>
+			<trans-unit id="flashcard_record" xml:space="preserve">
+				<source>Flashcard Record</source>
+			</trans-unit>
+			<trans-unit id="einordnung_record" xml:space="preserve">
+				<source>Einordnung Record</source>
+			</trans-unit>
+			<trans-unit id="einordnung_feedback_record" xml:space="preserve">
+				<source>Einordnung Feedback Record</source>
+			</trans-unit>
+			<trans-unit id="zuordnung_record" xml:space="preserve">
+				<source>Zuordnung DND Card Record</source>
+			</trans-unit>
+			<trans-unit id="zuordnung_feedback_record" xml:space="preserve">
+				<source>Zuordnung DND Card Feedback Record</source>
+			</trans-unit>
+			<trans-unit id="quiz_record" xml:space="preserve">
+				<source>Quiz Record</source>
+			</trans-unit>
+			<trans-unit id="question_hint_answer_record" xml:space="preserve">
+				<source>Question hint answer Record</source>
+			</trans-unit>
+			<trans-unit id="dnd_ranking_record" xml:space="preserve">
+				<source>Dnd Ranking Record</source>
+			</trans-unit>
+			<trans-unit id="hangman_record" xml:space="preserve">
+				<source>Hangman Record</source>
+			</trans-unit>
+			<trans-unit id="chart_record" xml:space="preserve">
+				<source>Chart Record</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,31 @@
+plugin.tx_t3evideojumper {
+	view {
+		templateRootPath = {$plugin.tx_t3evideojumper.view.templateRootPath}
+		partialRootPath = {$plugin.tx_t3evideojumper.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_t3evideojumper.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_t3evideojumper.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+page.includeCSS {
+	projekktor = EXT:t3e_videojumper/Resources/Public/CSS/Projekktor/projekktor.style.css
+	t3e_videojumper = EXT:t3e_videojumper/Resources/Public/CSS/style.css
+}
+
+page.includeJSFooterlibs {
+	#jquery = EXT:t3e_videojumper/Resources/Public/JS/jQuery/jquery-1.11.0.min.js
+
+	# when functionality is available change back to normal version of projekktor
+	# projekktor = EXT:t3e_videojumper/Resources/Public/JS/Projekktor/projekktor-1.3.09.min.js
+
+	#projekktor = EXT:t3e_videojumper/Resources/Public/JS/Projekktor/projekktor-universal.min.js
+	#responsive = EXT:t3e_videojumper/Resources/Public/JS/ResponsiveJS/responsive.js
+	#modernizr = EXT:t3e_videojumper/Resources/Public/JS/Modernizr/modernizr.min.js
+	#videojumper = EXT:t3e_videojumper/Resources/Public/JS/videojumper.js
+}

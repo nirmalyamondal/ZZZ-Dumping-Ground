@@ -1,0 +1,62 @@
+{namespace h=Tx_LtubeToolbox_ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+
+<ul id="tx_toolbox_hangman">
+	<f:for each="{hangmanquestions}" as="hangmanquestion" iteration="hmanIterator">
+		<li id="hangman{hmanIterator.cycle}">
+			<div class='hangman_qustion' ans="{hangmanquestion.word}" style="background:{settings.hman_question_bg_color}"><p><b><f:format.html parseFuncTSPath="lib.parseFunc">{hangmanquestion.question}</f:format.html></b></p></div>
+			<div class="hangman_answer" style="background:{settings.hman_answer_bg_color}">
+				<table cellpadding="0" cellspacing="0" border="0" class="toolbox_hangman_table" try="{hangmanquestion.amountOfTry}">
+					<tr>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','a');">A</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','b');">B</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','c');">C</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','d');">D</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','e');">E</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','f');">F</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','g');">G</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','h');">H</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','i');">I</span></td>
+					</tr>
+					<tr>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','j');">J</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','k');">K</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','l');">L</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','m');">M</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','n');">N</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','o');">O</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','p');">P</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','q');">Q</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','r');">R</span></td>
+					</tr>
+					<tr>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','s');">S</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','t');">T</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','u');">U</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','v');">V</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','w');">W</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','x');">X</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','y');">Y</span></td>
+						<td><span onclick="toolbox_hangman_guess({hangmanquestion.uid},'hangman{hmanIterator.cycle}','z');">Z</span></td>
+
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+					<h:hangmanAlphabet word="{hangmanquestion.word}" />
+				</table>
+				<div class="hangman_images"></div>
+				<div class='hangan_play' onclick="toolbox_hangman_play_again('hangman{hmanIterator.cycle}');"><f:translate key="hangman_play_button" /></div>
+			</div>
+		</li>
+	</f:for>
+</ul>
+<div class="right_msg"><f:translate key="hman_right_ans_msg" /></div>
+<div class="wrong_msg"><f:translate key="hman_wrong_ans_msg" /></div>
+<div class="guess_msg"><f:translate key="hman_guess_msg" /></div>
+
+</f:section>

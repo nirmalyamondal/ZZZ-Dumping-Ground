@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-10-28T15:59:35Z" product-name="learntube_glossary">
+		<header/>
+		<body>
+			<trans-unit id="tx_learntubeglossary_domain_model_glossarycategory">
+				<source>Glossary Category</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeglossary_domain_model_glossarycategory.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeglossary_domain_model_glossaryitem">
+				<source>Glossary Item</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeglossary_domain_model_glossaryitem.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeglossary_domain_model_glossaryitem.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubeglossary_domain_model_glossaryitem.category">
+				<source>Category</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-05T17:25:49Z" product-name="learntube_pdfcertificate">
+		<header/>
+		<body>
+			<trans-unit id="tx_learntubepdfcertificate_domain_model_items">
+				<source>Pdf Certificate</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubepdfcertificate_domain_model_items.feuser">
+				<source>Feuser</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubepdfcertificate_domain_model_items.datetime">
+				<source>Datetime</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubepdfcertificate_domain_model_items.ttcontent">
+				<source>Ttcontent</source>
+			</trans-unit>
+			<trans-unit id="tx_learntubepdfcertificate_domain_model_items.srcpageid">
+				<source>Srcpageid</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

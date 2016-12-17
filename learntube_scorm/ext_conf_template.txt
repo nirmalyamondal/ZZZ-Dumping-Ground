@@ -1,0 +1,26 @@
+# cat=basic/enable; type=string; label= Website Root URL ( http://localhost/scormcloud/ )
+wwwroot = http://localhost/scormcloud/
+
+# cat=basic/enable; type=string; label= SCORM Cloud Webservice URL ( http://cloud.scorm.com/EngineWebServices/ )
+scormcloudurl = http://cloud.scorm.com/EngineWebServices/
+
+# cat=basic/enable; type=string; label= SCORM Cloud Appid (P3Z8Y1W6MN)
+scormcloudappid = P3Z8Y1W6MN
+
+# cat=basic/enable; type=string; label= SCORM Cloud Secret Key (AqNaMYo0nJwP80jc2kTTXhDt2BPOOWraRpjqryjk)
+scormcloudsecretkey = AqNaMYo0nJwP80jc2kTTXhDt2BPOOWraRpjqryjk
+
+# cat=basic/enable; type=string; label= SCORM Cloud Manager Appid (N01PD7TPO9)
+scormcloudappmanagerid = N01PD7TPO9
+
+# cat=basic/enable; type=string; label= SCORM Cloud Manager Secret Key (ZvDAjk1iT7xwtPyT6SBoCBZPB6M5NF8AKFyBgenS)
+scormcloudmanagersecretkey = ZvDAjk1iT7xwtPyT6SBoCBZPB6M5NF8AKFyBgenS
+
+# cat=basic/enable; type=string; label= SCORM Cloud Local Package Label (LearntubeGbR.LMS3.6.2)
+scormcloudorigin = LearntubeGbR.LMS3.6.2
+
+# cat=basic/enable; type=string; label= Typo3 FE User Group Id for SCORM Registration
+#fegroupid = 1
+
+# cat=basic/enable; type=integer; label= SCORM Cloud Record Storage PID
+scormcloudstorage = 1

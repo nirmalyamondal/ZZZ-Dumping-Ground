@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Topic System</TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY>
+
+<H1>Pi1 Progressbar at Top Left of Page: </H1>
+
+<!--###progressbar_tmpl### //begin-->
+<a href="javascript:_ltube_topicsystem_pi1_show_all();"><div class="progressbar_one_container">
+	<div class="progressbar_left_side">
+		<div class="progressbar_left_text">###topic### :</div>
+		<div class="progressbar_left_percent">###percent###%</div>
+	</div>
+	<div class="progressbar_outer" style="float:left;background-color:###backcolor###;width:###barwidth###px;height:###barheight###px;">
+		<div class="progressbar_inner" style="float:left;background-color:###frontcolor###;width:###calcwidth###px;height:###barheight###px;"></div>
+	</div>
+</div></a>
+<div id="tx_ltubetopicsystem_pi1_all_container"></div>
+<!--###progressbar_tmpl### //end-->
+
+
+
+<H1>Pi1 Progressbar popup Display: </H1>
+
+<!--###progressbar_all_tmpl### //begin-->
+<ul>###progressbar_all###</ul><div id="tx_ltubetopicsystem_pi1_all_close"><a href="javascript:_ltube_topicsystem_pi1_hide_all();">Close</a></div>
+<!--###progressbar_all_tmpl### //end-->
+
+
+<!--###progressbar_repeat_tmpl### //begin-->
+<li class="progressbar_li_###uid###" >
+	<div class="progressbar_left_side">
+		<div class="progressbar_left_text">###topic### :</div>
+		<div class="progressbar_left_percent">###percent###%</div>
+	</div>
+	<div class="progressbar_outer" style="float:left;background-color:###backcolor###;width:###barwidth###px;height:###barheight###px;">
+		<div class="progressbar_inner" style="float:left;background-color:###frontcolor###;width:###calcwidth###px;height:###barheight###px;"></div>
+	</div>
+</li>
+<!--###progressbar_repeat_tmpl### //end-->
+
+
+<!--------------------------------------------------------------------------------->
+<!---- FOR MOODLE SITE ------>
+
+<!--###progressbar_all_tmpl_moodle### //begin-->
+<table cellspacing="0" cellpadding="2" border="0">###progressbar_all###</table>
+<!--###progressbar_all_tmpl_moodle### //end-->
+
+
+<!--###progressbar_repeat_tmpl_moodle### //begin-->
+<tr class="progressbar_li_###uid###" >
+	<td valign="top" align="left">
+		<div class="progressbar_left_text">###topic### <br/></div>
+		<div class="progressbar_outer" style="float:left;background-color:###backcolor###;width:###barwidth###px;height:###barheight###px;">
+			<div class="progressbar_inner" style="float:left;background-color:###frontcolor###;width:###calcwidth###px;height:###barheight###px;"></div>
+		</div>
+	</td>
+	<td valign="top" align="left">&nbsp;</td>
+	<td valign="top" align="left">###percent###%</td>
+</tr>
+<!--###progressbar_repeat_tmpl_moodle### //end-->
+
+
+</BODY>
+</HTML>

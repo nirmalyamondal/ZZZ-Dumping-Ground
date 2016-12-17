@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-03T13:45:57Z" product-name="ltube_toolbox">
+		<header/>
+		<body>
+
+			<trans-unit id="fcard_name.description">
+				<source>fcardName</source>
+			</trans-unit>
+			<trans-unit id="fe_content.description">
+				<source>feContent</source>
+			</trans-unit>
+			<trans-unit id="be_content.description">
+				<source>beContent</source>
+			</trans-unit>
+			<trans-unit id="fe_font_color.description">
+				<source>feFontColor</source>
+			</trans-unit>
+			<trans-unit id="be_font_color.description">
+				<source>beFontColor</source>
+			</trans-unit>
+			<trans-unit id="fe_bg_color.description">
+				<source>feBgColor</source>
+			</trans-unit>
+			<trans-unit id="be_bg_color.description">
+				<source>beBgColor</source>
+			</trans-unit>
+			<trans-unit id="flip_dir.description">
+				<source>flipDir</source>
+			</trans-unit>
+			<trans-unit id="parentid.description">
+				<source>parentid</source>
+			</trans-unit>
+			<trans-unit id="parenttable.description">
+				<source>parenttable</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

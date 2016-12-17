@@ -1,0 +1,70 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Sliders</h1>
+
+<f:flashMessages renderMode="div" />
+
+<table  class="tx_ltubesliders" >
+	<tr>
+		<th><f:translate key="tx_ltubesliders_domain_model_sliders.title" /></th>
+		<th><f:translate key="tx_ltubesliders_domain_model_sliders.description" /></th>
+		<th><f:translate key="tx_ltubesliders_domain_model_sliders.linktext" /></th>
+		<th><f:translate key="tx_ltubesliders_domain_model_sliders.linkurl" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{sliderss}" as="sliders">
+		<tr>
+			<td><f:link.action action="show" arguments="{sliders : sliders}"> {sliders.title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{sliders : sliders}"> {sliders.description}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{sliders : sliders}"> {sliders.linktext}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{sliders : sliders}"> {sliders.linkurl}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{sliders : sliders}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{sliders : sliders}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Sliders</f:link.action>
+</f:section>
+
+================================================
+
+==========================================
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+	<f:for each="{sliders_array}" as="sliders">
+		<div id="<f:format.html parseFuncTSPath='lib.parseFunc'>ltube_jswiki_element_{sliders.uid}</f:format.html>" class="slidersContainer"><div class="bg"></div></div>
+	</f:for>
+
+<script type="text/javascript">
+	<f:for each="{wikipedias}" as="wikipedia">
+		jQuery('div#ltube_jswiki_element_<f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.uid}</f:format.html>').WikipediaWidget('<f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.wikiTitle}</f:format.html>',{'showTitle': <f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.showTitle}</f:format.html>,'maxThumbnails': <f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.maxThumbnails}</f:format.html>,'cutFirstInfoTableRows': <f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.cutFirstInfoTableRows}</f:format.html>,'maxInfoTableRows': <f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.maxInfoTableRows}</f:format.html>,'thumbMaxWidth': '<f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.thumbMaxWidth}px</f:format.html>','thumbMaxHeight': '<f:format.html parseFuncTSPath="lib.parseFunc">{wikipedia.thumbMaxHeight}px</f:format.html>'});
+	</f:for>
+</f:section>

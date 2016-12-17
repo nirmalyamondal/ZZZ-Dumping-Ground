@@ -1,0 +1,309 @@
+#CURL
+
+lib.tx_ltubeprintpages_pi1_subpages = HMENU
+lib.tx_ltubeprintpages_pi1_subpages.special = directory
+#lib.tx_ltubeprintpages_pi1_subpages.special.value = 1
+#lib.tx_ltubeprintpages_pi1_subpages.excludeUidList = 1
+lib.tx_ltubeprintpages_pi1_subpages {
+	1 = TMENU
+	1 {
+	        expAll = 1
+		NO {
+			doNotLinkIt = 1
+			#stdWrap.dataWrap = | ,
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}
+		}
+	}
+	2 = TMENU
+        2 {
+                expAll = 1
+                wrap = ,|
+		NO {
+			doNotLinkIt = 1
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}			
+		}
+	}
+	3 = TMENU
+        3 {
+                expAll = 1
+                wrap = ,|
+		NO {
+			doNotLinkIt = 1
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}			
+		}
+	}
+	4 = TMENU
+        4 {
+                expAll = 1
+                wrap = ,|
+		NO {
+			doNotLinkIt = 1
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}			
+		}
+	}
+	5 = TMENU
+        5 {
+                expAll = 1
+                wrap = ,|
+		NO {
+			doNotLinkIt = 1
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}			
+		}
+	}
+	6 = TMENU
+        6 {
+                expAll = 1
+                wrap = ,|
+		NO {
+			doNotLinkIt = 1
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}			
+		}
+	}
+	7 = TMENU
+        7 {
+                expAll = 1
+                wrap = ,|
+		NO {
+			doNotLinkIt = 1
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}			
+		}
+	}
+	8 = TMENU
+        8 {
+                expAll = 1
+                wrap = ,|
+		NO {
+			doNotLinkIt = 1
+			wrapItemAndSub = | , |*| | , |*|  |
+			stdWrap.cObject = COA
+  			stdWrap.cObject {
+       				10 = TEXT
+    				10 {
+      					field = uid
+     					wrap = |
+    				}
+			}			
+		}
+	}
+}
+
+plugin.tx_ltubeprintpages_pi1 {
+	template		= {$plugin.tx_ltubeprintpages_pi1.template}
+	subpages < lib.tx_ltubeprintpages_pi1_subpages
+}
+
+
+#######################################################################################################################
+#######################################################################################################################
+#######################################################################################################################
+
+#PAGE TREE 
+
+lib.tx_ltubeprintpages_pi2_subpages = HMENU
+lib.tx_ltubeprintpages_pi2_subpages.special = directory
+#lib.tx_ltubeprintpages_pi2_subpages.special.value = 1
+#lib.tx_ltubeprintpages_pi2_subpages.excludeUidList = 1
+lib.tx_ltubeprintpages_pi2_subpages {
+	1 = TMENU
+	1 {
+	        expAll = 1
+		wrap = <ul id="expand_collapse_ltb_tree"> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="printitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+	2 = TMENU
+        2 {
+	        expAll = 1
+		wrap = <ul> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+	3 = TMENU
+        3 {
+	        expAll = 1
+		wrap = <ul> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+	4 = TMENU
+        4 {
+	        expAll = 1
+		wrap = <ul> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+	5 = TMENU
+        5 {
+		expAll = 1
+		wrap = <ul> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+	6 = TMENU
+        6 {
+		expAll = 1
+		wrap = <ul> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+	7 = TMENU
+        7 {
+		expAll = 1
+		wrap = <ul> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+	8 = TMENU
+        8 {
+		expAll = 1
+		wrap = <ul> | </ul>
+		NO {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+		ACT {
+			allWrap.insertData=1
+			allWrap = <li id="menuitem_{field:uid}"> | <input type="checkbox" value="{field:uid}" class="is_it_shortcut_{field:uid}" name="tx_ltubeprintpages_pi2[pages][]">
+			wrapItemAndSub = | </li>
+		}
+	}
+}
+
+plugin.tx_ltubeprintpages_pi2 {
+	template		= {$plugin.tx_ltubeprintpages_pi2.template}
+	print_template		= {$plugin.tx_ltubeprintpages_pi2.print_template}
+	subpages < lib.tx_ltubeprintpages_pi2_subpages
+	print_uid		= {$plugin.tx_ltubeprintpages_pi2.print_uid}
+}
+
+## This enables to print multiple pages
+learntube_print_pages = PAGE
+learntube_print_pages {
+  typeNum = 102
+  10 < plugin.tx_ltubeprintpages_pi2
+  config {
+    disableAllHeaderCode = 1
+    additionalHeaders = Content-type:text/html
+    xhtml_cleaning = 0
+    admPanel = 0
+    no_cache = 1
+  }
+}
+
+
+
+#Load javascript in all pages
+page.includeJSFooter.tx_ltubeprintpages_pi1_lib = typo3conf/ext/ltube_printpages/jscript/ltube_printpages.js

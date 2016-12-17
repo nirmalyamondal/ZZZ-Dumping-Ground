@@ -1,0 +1,51 @@
+
+plugin.tx_ltubeftopicupdate {
+	view {
+                templateRootPath = {$plugin.tx_ltubeftopicupdate.view.templateRootPath}
+                partialRootPath = {$plugin.tx_ltubeftopicupdate.view.partialRootPath}
+                layoutRootPath = {$plugin.tx_ltubeftopicupdate.view.layoutRootPath}
+	}
+	persistence {
+                storagePid = {$plugin.tx_ltubeftopicupdate.persistence.storagePid}
+	}
+	features {
+                # uncomment the following line to enable the new Property Mapper.
+                # rewrittenPropertyMapper = 1
+	}
+}
+
+config.tx_extbase.persistence.classes {
+
+    LTUBE\LtubeFtopicupdate\Domain\Model\Page {
+        mapping {
+            tableName = pages
+            columns {
+                    txLtubetopicsystemTopic.mapOnProperty = tx_ltubetopicsystem_topic
+                    doktype.mapOnProperty = doktype
+            }
+        }
+    }
+
+    LTUBE\LtubeFtopicupdate\Domain\Model\Report {
+        mapping {
+            tableName = tx_ltubetest_domain_model_report
+        }
+    }
+
+    LTUBE\LtubeFtopicupdate\Domain\Model\Topic {
+        mapping {
+            tableName = tx_ltubetopicsystem_topic
+            columns {
+                    creditpoint.mapOnProperty = creditpoint
+            }
+        }
+    }
+
+    LTUBE\LtubeFtopicupdate\Domain\Model\User {
+        mapping {
+            tableName = fe_users
+        }
+    }
+
+
+}

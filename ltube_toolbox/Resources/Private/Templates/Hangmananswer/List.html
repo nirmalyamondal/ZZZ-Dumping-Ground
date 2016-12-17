@@ -1,0 +1,40 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Hangmananswer</h1>
+
+<f:flashMessages />
+
+<table  class="tx_ltubetoolbox" >
+	<tr>
+		<th><f:translate key="tx_ltubetoolbox_domain_model_hangmananswer.answer" /></th>
+		<th><f:translate key="tx_ltubetoolbox_domain_model_hangmananswer.parentid" /></th>
+		<th><f:translate key="tx_ltubetoolbox_domain_model_hangmananswer.parenttable" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{hangmananswers}" as="hangmananswer">
+		<tr>
+			<td><f:link.action action="show" arguments="{hangmananswer : hangmananswer}"> {hangmananswer.answer}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{hangmananswer : hangmananswer}"> {hangmananswer.parentid}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{hangmananswer : hangmananswer}"> {hangmananswer.parenttable}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{hangmananswer : hangmananswer}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{hangmananswer : hangmananswer}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Hangmananswer</f:link.action>
+</f:section>

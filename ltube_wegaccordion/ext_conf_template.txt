@@ -1,0 +1,3 @@
+# cat=basic/enable/200; type=integer; label=colPos of IRRE Content: Select the colPos where the tt_content will be saved in IRRE-view
+ltubewegaccordionIrreContent = 38
+

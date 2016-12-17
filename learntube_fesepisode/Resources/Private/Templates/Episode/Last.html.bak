@@ -1,0 +1,39 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Last.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h3>Last Four</h3>
+<f:flashMessages renderMode="div" />
+<div class="featured-banners">
+	<div class="row">
+		<f:for each="{episodesLastFour}" as="episode">
+			<div class="col-sm-3">
+				<div class="featured-banner-head clearfix">
+				  <div class="featured-banner-icon"><img alt="" src="images/{episode.image}"></div>
+				  <h5><f:format.date format="d.m.Y - H:i:s">{episode.edate}</f:format.date></h5>
+				  <h4>{episode.category}</h4>
+				  </div>
+				<div class="pic-banner"><f:link.page pageUid="1" additionalParams="{foo: 'bar'}"><img alt="" src="images/{episode.image}"></f:link.page><!--div class="label-icon"><img alt="" src="images/ico-label-video.png"></div--></div>
+				<h6>{episode.name}</h6>
+				<p>{episode.sdescription}</p>
+				<div class="text-right">
+				  <div class="btn btn-more"><f:link.page pageUid="1" additionalParams="{foo: 'bar'}" noCacheHash="TRUE" noCache="TRUE">mehr lesen</f:link.page></div>
+				</div>
+			  </div>
+		</f:for>
+	</div>
+</div>
+</f:section>
+
+<!--div id="<f:format.html parseFuncTSPath='lib.parseFunc'>{episode.uid}</f:format.html>" class="slidersContainer"><div class="bg"></div></div-->

@@ -1,0 +1,23 @@
+{namespace t3evideo=T3e\T3eVideojumper\ViewHelpers}
+<f:layout name="Default" />
+
+<f:section name="Main">
+   <video width="800" height="450" poster="{posterImage}" {f:if(condition : autostart, then: 'autoplay')} class="projekktor" controls>
+   <f:for each="{videoFiles}" as="file">
+      <source src="/t3620/{file}" type="{t3evideo:MIMEType(file : file)}"/>
+   </f:for>
+   </video>
+   <f:if condition="{bigButton}">
+   <a href="#" class="playpause {f:if(condition : autostart, then: 'pause', else: 'play')}"></a>
+ </f:if>
+   <script type="text/javascript">
+      // var t3evideojumper_disallowSkip = {f:if(condition : disallowSkip, then: 'true', else: 'false')};
+      var t3evideojumper_disallowSkip = {
+        forward : <f:if condition="{disallow_forward}"><f:then>true</f:then><f:else>false</f:else></f:if>,
+        backward : <f:if condition="{disallow_backward}"><f:then>true</f:then><f:else>false</f:else></f:if>
+      };
+      var gotoNextPage = {f:if(condition : nextPage, then:'function () {
+         window.location = "{f:uri.page(pageUid : nextPage)}"
+      }', else : 'function() {}')}
+   </script>
+</f:section>

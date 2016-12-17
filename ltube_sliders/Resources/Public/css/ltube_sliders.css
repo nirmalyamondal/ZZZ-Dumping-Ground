@@ -1,0 +1,150 @@
+/*- Slider Banner -*/
+#slider{ 
+	padding:0px;
+	margin:0px; 
+	clear: both;
+	position: relative;
+	width: 997px;
+	height: 367px;
+	padding-bottom:25px; 
+}
+#slider-content li{
+	left: 0;
+	position: absolute;
+	width: 997px;
+	height: 367px;
+}
+div.slide-nav{
+	margin-top:5px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	z-index: 10;
+	clear:both;
+}
+div.slide-nav a{  
+	height: 18px;
+	width: 18px;
+	margin: 0 0 0 10px;
+	display: inline-block;;
+	background: url(../images/ico-dot.png) no-repeat;
+	text-indent: -999999px;
+}
+div.slide-nav a:hover,
+div.slide-nav a.activeSlide {
+	background: url(../images/ico-dot-.png) no-repeat;
+	text-decoration: none;
+	text-indent: -999999px;
+}
+
+/*============ 997px Width Layout ============*/ 
+/*@media screen and (max-width: 768px), (max-device-width: 768px) {*/
+@media screen and (max-width: 997px), (max-device-width: 997px) {
+#slider, #slider-content li{
+  height: 367px;
+  width: 997px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img, body, html {
+    border: 0 none;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+}
+
+/*============ 768px Width Layout ============*/ 
+@media screen and (max-width: 768px), (max-device-width: 768px) {
+#slider, #slider-content li{
+  height: 367px;
+  width: 768px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img, body, html {
+    border: 0 none;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+}
+
+
+/*============ 590px Width Layout ============*/ 
+@media screen and (max-width: 590px), (max-device-width: 590px) {
+#slider, #slider-content li{
+  height:360px;
+  width: 590px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img, body, html {
+    border: 0 none;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+}
+
+
+
+
+/*============ 480px Width Layout ============*/ 
+@media screen and (max-width: 480px), (max-device-width: 480px) {
+
+/*- Slider Banner -*/
+#slider, #slider-content li{
+  height: 360px;
+  width: 480px;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img, body, html {
+    border: 0 none;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+}
+
+
+
+/*============ 320px Width Layout ============*/ 
+@media screen and (max-width: 320px), (max-device-width: 320px) {
+
+/*- Slider Banner -*/
+#slider, #slider-content li{
+  height: 360px;
+  width: 320px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img, body, html {
+    border: 0 none;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+}

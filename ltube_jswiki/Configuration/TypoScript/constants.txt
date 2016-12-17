@@ -1,0 +1,14 @@
+plugin.tx_ltubejswiki {
+	view {
+		# cat=plugin.tx_ltubejswiki/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ltube_jswiki/Resources/Private/Templates/
+		# cat=plugin.tx_ltubejswiki/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ltube_jswiki/Resources/Private/Partials/
+		# cat=plugin.tx_ltubejswiki/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ltube_jswiki/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ltubejswiki//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-02-17T15:13:12Z" product-name="ltube_subscription">
+		<header/>
+		<body>    
+			<trans-unit id="fe_users.tx_ltubesubscription_moodle">
+				<source>Website</source>
+			</trans-unit>		
+		</body>
+	</file>
+</xliff>

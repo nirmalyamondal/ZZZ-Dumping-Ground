@@ -1,0 +1,15 @@
+
+plugin.tx_ltubesliders {
+	view {
+		# cat=plugin.tx_ltubesliders/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ltube_sliders/Resources/Private/Templates/
+		# cat=plugin.tx_ltubesliders/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ltube_sliders/Resources/Private/Partials/
+		# cat=plugin.tx_ltubesliders/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ltube_sliders/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ltubesliders//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

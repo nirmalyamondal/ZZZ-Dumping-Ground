@@ -1,0 +1,52 @@
+{namespace fcard=Tx_LtubeToolbox_ViewHelpers}
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<f:if condition="{settings.flashcardpaging} != 1">
+	<f:if condition="{settings.flashcard_in_one_line} == 1">				
+		<ul id="tx_toolbox_one_col" >
+			<f:for each="{flashcards}" as="fc" iteration="cardIterator">
+				<li style="width:{settings.flashcardwidth}px;" class="flashcardsUl"> 
+					<fcard:flash obj="{fc}" cycle="{cardIterator.cycle}"/>
+					<fcard:fcardButton obj="{fc}" cycle="{cardIterator.cycle}" btnlabel='<f:translate key="flashcard_button_label" />' />
+				</li><BR style="clear:both"><BR style="clear:both">
+			</f:for>
+		</ul>
+	</f:if>
+
+	<f:if condition="{settings.flashcard_in_one_line} == 2">
+		<ul id="tx_toolbox_two_col">
+			<f:for each="{flashcards}" as="fc" iteration="cardIterator">
+					<f:if condition="{cardIterator.cycle} % 2">
+						<f:then>
+							<li style="width:{settings.flashcardwidth}px;" class="flashcardsUl"> 
+								<fcard:flash obj="{fc}" cycle="{cardIterator.cycle}" />
+								<fcard:fcardButton obj="{fc}" cycle="{cardIterator.cycle}" btnlabel='<f:translate key="flashcard_button_label" />' />
+							</li>
+						</f:then>
+						<f:else>
+							<li style="width:{settings.flashcardwidth}px;" class="flashcardsUl">
+								<fcard:flash obj="{fc}" cycle="{cardIterator.cycle}" />
+								<fcard:fcardButton obj="{fc}" cycle="{cardIterator.cycle}" btnlabel='<f:translate key="flashcard_button_label" />' />
+							</li><BR style="clear:both">
+						</f:else>
+					</f:if>
+			</f:for>
+		</ul>
+	</f:if>
+</f:if>
+
+<f:if condition="{settings.flashcardpaging} == 1">
+	<ul id="tx_toolbox_pagination" cur_lang="{cur_lang}">
+		<f:for each="{flashcards}" as="fc" iteration="cardIterator">
+			<li> 
+				<fcard:flash obj="{fc}" cycle="{cardIterator.cycle}" />
+				<fcard:fcardButton obj="{fc}" cycle="{cardIterator.cycle}" btnlabel='<f:translate key="flashcard_button_label" />' />
+			</li>
+		</f:for>
+	</ul>
+</f:if>
+
+</f:section>

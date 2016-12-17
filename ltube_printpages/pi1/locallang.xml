@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_ltubeprintpages_pi1&quot;</description>
+	</meta>
+	<data type="array">
+
+		<languageKey index="default" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Click here to submit value</label>
+
+			<label index="pi_flexform.settings">Settings</label>
+			<label index="pi_flexform.storage_folder">Path to save HTML (e.g. fileadmin/ltube_printpages)</label>
+			<label index="pi_flexform.username">FE Username</label>
+			<label index="pi_flexform.password">FE User Password</label>
+			<label index="pi_flexform.user_pid">FE Users Storage Page</label>
+			<label index="pi_flexform.login_id">FE Users Login Page</label>
+			<label index="pi_flexform.root_page">Root Page Id of Page Tree</label>
+			<label index="pi_flexform.exclude_pages">Exclude These Pages and Its Subpages</label>
+			
+			<label index="login_error">Login Needed !!! to execute Print Multiple Pages!</label>
+			<label index="flexform_error">Please check flexform configuration of extension Print Pages.</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Click here to submit value</label>
+
+			<label index="pi_flexform.settings">Settings</label>
+			<label index="pi_flexform.storage_folder">Path to save HTML (e.g. fileadmin/ltube_printpages)</label>
+			<label index="pi_flexform.username">FE Username</label>
+			<label index="pi_flexform.password">FE User Password</label>
+			<label index="pi_flexform.user_pid">FE Users Storage Page</label>
+			<label index="pi_flexform.login_id">FE Users Login Page</label>
+			<label index="pi_flexform.root_page">Root Page Id of Page Tree</label>
+			<label index="pi_flexform.exclude_pages">Exclude These Pages and Its Subpages</label>
+
+			<label index="login_error">Login Needed !!! to execute Print Multiple Pages!</label>
+			<label index="flexform_error">Please check flexform configuration of extension Print Pages.</label>
+		</languageKey>
+
+	</data>
+</T3locallang>

@@ -1,0 +1,45 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Latest.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h3>Latest</h3>
+<div class="featured-banners">
+  <div class="row">
+
+  <div class="col-sm-3">
+    <div class="featured-banner-head clearfix">
+      <div class="featured-banner-icon"><img alt="" src="images/ico02.png"></div>
+      <h5>{episodes.date}</h5>
+      <h4>{episodes.category}</h4>
+      </div>
+    <div class="pic-banner"><a href="#"><img alt="" src="images/pic-wisenssnack3.jpg"></a>
+      <div class="label-icon"><img alt="" src="images/ico-label-video.png"></div>
+      </div>
+    <h6>{episodes.title}</h6>
+    <p>{episodes.smalldescription}.</p>
+    <div class="text-right">
+      <div class="btn btn-more"><a href="#">mehr lesen</a></div>
+    </div>
+  </div>
+
+
+
+    
+  </div>
+</div>
+
+<f:flashMessages renderMode="div" />
+
+
+</f:section>

@@ -1,0 +1,60 @@
+
+plugin.tx_ltubesubscription {
+	view {
+                templateRootPath = {$plugin.tx_ltubesubscription.view.templateRootPath}
+                partialRootPath = {$plugin.tx_ltubesubscription.view.partialRootPath}
+                layoutRootPath = {$plugin.tx_ltubesubscription.view.layoutRootPath}
+	}
+	persistence {
+                storagePid = {$plugin.tx_ltubesubscription.persistence.storagePid}
+	}
+	features {
+                # uncomment the following line to enable the new Property Mapper.
+                # rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_ltubesubscription.settings {
+    usertopicPid = 24
+}
+
+config.tx_extbase.persistence.classes {
+
+    LTUBE\LtubeSubscription\Domain\Model\Page {
+        mapping {
+            tableName = pages
+            columns {
+                    txLtubetopicsystemTopic.mapOnProperty = tx_ltubetopicsystem_topic
+                    doktype.mapOnProperty = doktype
+            }
+        }
+    }
+
+    LTUBE\LtubeSubscription\Domain\Model\Price {
+        mapping {
+            tableName = tx_ltubetopicsystem_price
+        }
+    } 
+
+    LTUBE\LtubeSubscription\Domain\Model\Topic {
+        mapping {
+            tableName = tx_ltubetopicsystem_topic
+            columns {
+                    title.mapOnProperty = title
+            }
+        }
+    }
+
+    LTUBE\LtubeSubscription\Domain\Model\User {
+        mapping {
+            tableName = fe_users
+        }
+    }
+
+    LTUBE\LtubeSubscription\Domain\Model\Usertopic {
+        mapping {
+            tableName = tx_ltubetopicsystem_usertopic
+        }
+    } 
+
+}

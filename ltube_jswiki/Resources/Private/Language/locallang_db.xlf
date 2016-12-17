@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-11T10:47:22Z" product-name="ltube_jswiki">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia">
+				<source>Wikipedia</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.wiki_title">
+				<source>Wiki Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.show_title">
+				<source>Show Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.max_thumbnails">
+				<source>Max Thumbnails</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.cut_first_info_table_rows">
+				<source>Cut First Info Table Rows</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.max_info_table_rows">
+				<source>Max Info Table Rows</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.thumb_max_width">
+				<source>Thumb Max Width</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.thumb_max_height">
+				<source>Thumb Max Height</source>
+			</trans-unit>
+			<trans-unit id="wikipedia_record">
+				<source>T3e Wikipedia Records</source>
+			</trans-unit>
+			<trans-unit id="yes">
+				<source>Yes</source>
+			</trans-unit>
+			<trans-unit id="no">
+				<source>No</source>
+			</trans-unit>
+			<trans-unit id="zero">
+				<source>0</source>
+			</trans-unit>
+			<trans-unit id="one">
+				<source>1</source>
+			</trans-unit>
+			<trans-unit id="two">
+				<source>2</source>
+			</trans-unit>
+			<trans-unit id="three">
+				<source>3</source>
+			</trans-unit>
+			<trans-unit id="four">
+				<source>4</source>
+			</trans-unit>
+			<trans-unit id="five">
+				<source>5</source>
+			</trans-unit>
+			<trans-unit id="six">
+				<source>6</source>
+			</trans-unit>
+			<trans-unit id="seven">
+				<source>7</source>
+			</trans-unit>
+			<trans-unit id="eight">
+				<source>8</source>
+			</trans-unit>
+			<trans-unit id="nine">
+				<source>9</source>
+			</trans-unit>
+			<trans-unit id="ten">
+				<source>10</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

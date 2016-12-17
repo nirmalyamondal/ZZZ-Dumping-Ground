@@ -1,0 +1,116 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    156,
+                    88
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+
+                    ]
+                },
+                "name": "Daafd",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "883821043737"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "title",
+                            "propertyType": "String",
+                            "uid": "622049214071"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "daafile",
+                            "propertyType": "File",
+                            "uid": "753415483595"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+
+                    ]
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "File with IRRE",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "extbase => 6.0\nfluid => 6.0\ntypo3 => 6.0\n",
+            "disableLocalization": true,
+            "disableVersioning": true,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": "6.0.0"
+        },
+        "extensionKey": "ltube_daafd",
+        "name": "Daa File Download Link",
+        "originalExtensionKey": "",
+        "persons": [
+            {
+                "company": "Learntube",
+                "email": "nmondal@learntube.de",
+                "name": "Nirmalya Mondal",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Daafd=>list",
+                    "noncacheableActions": "Daafd=>list",
+                    "switchableActions": ""
+                },
+                "key": "pi1",
+                "name": "Daa File Download Link"
+            }
+        ],
+        "vendorName": "Typo3"
+    },
+    "wires": [
+
+    ],
+    "log": {
+        "last_modified": "2014-11-14 10:34",
+        "extension_builder_version": "6.2.0",
+        "be_user": " (1)"
+    }
+}

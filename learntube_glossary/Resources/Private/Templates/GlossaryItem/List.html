@@ -1,0 +1,75 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+
+<f:if condition="{show_random} == 0">
+  <f:then>
+	<div class="index_div">
+		<ul class="index">
+			<li><a name="pagetop" id="pagetop"></a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#A">A</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#B">B</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#C">C</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#D">D</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#E">E</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#F">F</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#G">G</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#H">H</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#I">I</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#J">J</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#K">K</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#L">L</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#M">M</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#N">N</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#O">O</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#P">P</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#Q">Q</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#R">R</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#S">S</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#T">T</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#U">U</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#V">V</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#W">W</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#X">X</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#Y">Y</a></li>
+			<li><a href="<f:uri.page>"></f:uri.page>#Z">Z</a></li>
+		</ul>
+	</div>
+
+<f:flashMessages renderMode="div" />
+
+<f:for each="{glossaryItems}" as="glossaryItem" key="initial">
+ <div class="alphabet_div">
+	<a name="{initial}" id="{initial}"></a><b>{initial}</b> &nbsp;&nbsp;
+	<a href="<f:uri.page>"></f:uri.page>#pagetop" class="pageTop">Nach oben</a>
+ </div>
+	<f:for each="{glossaryItem}" as="glossaryItemItem">
+			<h4>{glossaryItemItem.title}</h4>
+			<f:format.html parseFuncTSPath='lib.parseFunc'>{glossaryItemItem.description}</f:format.html> <hr/>
+	</f:for>
+</f:for>
+
+
+ </f:then>
+  <f:else>
+
+	<f:for each="{glossaryItems}" as="glossaryItem" key="initial">
+				<h4>{glossaryItem.title}</h4>
+				<f:format.html parseFuncTSPath='lib.parseFunc'>{glossaryItem.description}</f:format.html> <hr/>
+	</f:for>
+
+</f:else>
+</f:if>
+</f:section>

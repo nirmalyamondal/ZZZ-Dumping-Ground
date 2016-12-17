@@ -1,0 +1,15 @@
+
+plugin.tx_ltubeiffuserpdf {
+	view {
+		# cat=plugin.tx_ltubeiffuserpdf/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ltube_iffuserpdf/Resources/Private/Templates/
+		# cat=plugin.tx_ltubeiffuserpdf/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ltube_iffuserpdf/Resources/Private/Partials/
+		# cat=plugin.tx_ltubeiffuserpdf/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ltube_iffuserpdf/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_ltubeiffuserpdf//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

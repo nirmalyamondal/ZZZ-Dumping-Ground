@@ -1,0 +1,11 @@
+plugin.tx_ltubeprintpages_pi1{
+	# cat=plugin.tx_ltubeprintpages_pi1/file; type=file[html,tmpl]; label= Template file.
+	template	= EXT:ltube_printpages/pi1/templatesPi2/pi1_template.html
+}
+
+plugin.tx_ltubeprintpages_pi2{
+        print_uid	= 29
+	# cat=plugin.tx_ltubeprintpages_pi2/file; type=file[html,tmpl]; label= Template file.
+	template	= EXT:ltube_printpages/pi2/templatesPi2/pi2_template.html
+	print_template	= EXT:ltube_printpages/pi2/templatesPi2/pi2_print_template.html
+}

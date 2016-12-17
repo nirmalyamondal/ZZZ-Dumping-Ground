@@ -1,0 +1,15 @@
+
+plugin.tx_learntubepdfcertificate {
+	view {
+		# cat=plugin.tx_learntubepdfcertificate/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:learntube_pdfcertificate/Resources/Private/Templates/
+		# cat=plugin.tx_learntubepdfcertificate/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:learntube_pdfcertificate/Resources/Private/Partials/
+		# cat=plugin.tx_learntubepdfcertificate/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:learntube_pdfcertificate/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_learntubepdfcertificate//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

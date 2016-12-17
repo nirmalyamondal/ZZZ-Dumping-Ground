@@ -1,0 +1,106 @@
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+	<langChildren>1</langChildren>
+  </meta>
+<sheets>
+
+<vDEF>
+<ROOT>
+<TCEforms>
+	<sheetTitle>LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.pi1_flexform_head</sheetTitle>
+</TCEforms>
+<type>array</type>
+<el>
+
+		<settings.what_to_display>
+			<TCEforms>				
+				<label>LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.what_to_display</label>
+				<onChange>reload</onChange>
+				<config>
+					<type>select</type>
+					<items type="array">
+						<numIndex index="1" type="array">
+							<numIndex index="0">LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.latest</numIndex>
+							<numIndex index="1">latest</numIndex>
+						</numIndex>
+						<numIndex index="2" type="array">
+							<numIndex index="0">LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.last</numIndex>
+							<numIndex index="1">last</numIndex>
+						</numIndex>
+						<numIndex index="3" type="array">
+							<numIndex index="0">LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.detail</numIndex>
+							<numIndex index="1">detail</numIndex>
+						</numIndex>
+						<numIndex index="4" type="array">
+							<numIndex index="0">LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.archive</numIndex>
+							<numIndex index="1">archive</numIndex>
+						</numIndex>
+						<numIndex index="5" type="array">
+							<numIndex index="0">LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.subscription</numIndex>
+							<numIndex index="1">subscription</numIndex>
+						</numIndex>
+					</items>
+					<maxitems>1</maxitems>
+					<size>1</size>
+				</config>
+			</TCEforms>
+		</settings.what_to_display>
+
+		<settings.show_in_detail>
+			<TCEforms>
+				<exclude>1</exclude>
+				<label>LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.show_in_detail</label>
+				<displayCond>FIELD:settings.what_to_display:IN:detail</displayCond>
+				<config>
+					<type>select</type>
+					<items type="array">						
+					</items>
+					<itemsProcFunc>tx_learntubefesepisode_flexform->_display_all_episode</itemsProcFunc>
+					<size>1</size>
+					<minitems>1</minitems>
+					<maxitems>1</maxitems>
+				</config>
+			</TCEforms>
+		</settings.show_in_detail>
+
+		<settings.detailpage>
+			<TCEforms>				
+				<label>LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.detailpage</label>
+				<displayCond>FIELD:settings.what_to_display:IN:latest,last,archive</displayCond>
+				<config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<autoSizeMax>1</autoSizeMax>
+					<minitems>0</minitems>
+					<maxitems>1</maxitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+			</TCEforms>
+		</settings.detailpage>
+
+		<settings.archivepage>
+			<TCEforms>				
+				<label>LLL:EXT:learntube_fesepisode/Resources/Private/Language/locallang_db.xlf:pi_flexform.archivepage</label>
+				<displayCond>FIELD:settings.what_to_display:IN:latest,last</displayCond>
+				<config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<autoSizeMax>1</autoSizeMax>
+					<minitems>0</minitems>
+					<maxitems>1</maxitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+			</TCEforms>
+		</settings.archivepage>
+
+ </el>
+</ROOT>
+</vDEF>
+
+</sheets>
+</T3DataStructure>

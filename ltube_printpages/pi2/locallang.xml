@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_ltubeprintpages_pi2&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Click here to submit value</label>
+			
+			<label index="pi_flexform.sheetTitle">Settings</label>
+			<label index="pi_flexform.storage_folder">Path to print folder (e.g. fileadmin/ltube_printpages)</label>
+			<label index="pi_flexform.root_page">Root Page Id to Display Page Tree</label>
+			<label index="pi_flexform.exclude_pages">Exclude These Pages and Its Subpages From Tree</label>
+			<label index="header_text">Select Pages to Print</label>
+			<label index="header_description">All selected pages will be printed.</label>
+			<label index="button_pagetree_submit">Print Selected pages</label>
+			<label index="button_pagetree_submit_this">Print Only This Page</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="pi_flexform.sheetTitle">Settings</label>
+			<label index="pi_flexform.storage_folder">Pfad zum Druck-Ordner (e.g. fileadmin/ltube_printpages)</label>
+			<label index="pi_flexform.root_page">Root Seiten Id der anzuzeigenden Seiten</label>
+			<label index="pi_flexform.exclude_pages">Diese Seite und Unterseiten ausschließen</label>
+			<label index="header_text">Seiten für den Druck auswählen</label>
+			<label index="header_description">Die ausgewählten Seiten werden für den Druck zusammengeführt.</label>
+			<label index="button_pagetree_submit">Drucke die ausgewählten Seiten!</label>
+			<label index="button_pagetree_submit_this">Drucke nur diese aktuelle Seite</label>
+		</languageKey>
+
+	</data>
+</T3locallang>

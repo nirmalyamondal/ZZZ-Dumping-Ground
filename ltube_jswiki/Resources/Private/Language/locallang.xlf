@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-11T10:47:22Z" product-name="ltube_jswiki">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia">
+				<source>Wikipedia</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.wiki_title">
+				<source>wikiTitle</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.show_title">
+				<source>showTitle</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.max_thumbnails">
+				<source>maxThumbnails</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.cut_first_info_table_rows">
+				<source>cutFirstInfoTableRows</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.max_info_table_rows">
+				<source>maxInfoTableRows</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.thumb_max_width">
+				<source>thumbMaxWidth</source>
+			</trans-unit>
+			<trans-unit id="tx_ltubejswiki_domain_model_wikipedia.thumb_max_height">
+				<source>thumbMaxHeight</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

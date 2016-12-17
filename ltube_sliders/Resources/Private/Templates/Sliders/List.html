@@ -1,0 +1,36 @@
+==========================================
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<div id="slider">
+<div id="slider-content">
+<ul>
+<!-- 	<f:for each="{sliderss}" as="sliders">
+		<div id="<f:format.html parseFuncTSPath='lib.parseFunc'>ltube_jswiki_element_{sliders.uid}</f:format.html>" class="slidersContainer"><div class="bg"></div></div>
+	</f:for> 
+-->
+	<f:for each="{sliderss}" as="sliders">
+		<li>
+			<div class="slide-content">
+				<h1><f:format.html parseFuncTSPath="lib.parseFunc">{sliders.title}</f:format.html></h1>
+				<f:format.html parseFuncTSPath="lib.parseFunc">{sliders.description}</f:format.html>
+			</div>
+			<div class="btn-infos"><a href="{sliders.linkurl}">{sliders.linktext}</a></div>
+			<div class="slide-pic"><f:format.html parseFuncTSPath="lib.parseFunc">{sliders.sphoto}</f:format.html></div>
+		</li>
+	</f:for>
+</ul>
+</div>
+</div>
+</f:section>

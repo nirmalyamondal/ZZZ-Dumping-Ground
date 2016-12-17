@@ -1,0 +1,19 @@
+
+plugin.tx_learntubeglossary {
+	view {
+		templateRootPath = {$plugin.tx_learntubeglossary.view.templateRootPath}
+		partialRootPath = {$plugin.tx_learntubeglossary.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_learntubeglossary.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_learntubeglossary.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_learntubeglossary._CSS_DEFAULT_STYLE (
+
+)

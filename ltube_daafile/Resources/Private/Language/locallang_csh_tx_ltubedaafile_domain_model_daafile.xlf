@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-04-30T15:48:18Z" product-name="ltube_daafile">
+		<header/>
+		<body>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="sphoto.description">
+				<source>sphoto</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

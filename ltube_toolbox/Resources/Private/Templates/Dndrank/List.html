@@ -1,0 +1,30 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+
+
+<ul id="tx_toolbox_dnd_rank">
+	<f:for each="{dndranks}" as="dndrank" iteration="cardIterator">
+		<li id="dnd_rank_{cardIterator.cycle}" class="dnd_rank" ans="{dndrank.res_answer}">
+			<div class="dnd_rank_question" question_uid="{dndrank.uid}">
+				<p><b><f:format.html parseFuncTSPath="lib.parseFunc">{dndrank.question}</f:format.html></b></p>
+			</div>
+			<div class='dnd_rank_wrapper'>
+				<ul class="dnd_rank">
+					<f:for each="{dndrank.answer}" as="answer" iteration="ansIterator">
+						<li>{ansIterator.cycle}</li>
+					</f:for>
+				</ul>
+				<ul class="dnd_rank_sortable">
+					<f:for each="{dndrank.answer}" as="answer" iteration="ansIterator">
+						<li class="ui-state-default" uid="{answer.uid}"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>{answer.answer}</li>
+					</f:for>
+				</ul>
+			</div>
+			<div class='dnd_check_rank_button' onclick="dnd_check_rank('dnd_rank_{cardIterator.cycle}');"><f:translate key="check_rank_button" /></div>
+		</li>
+	</f:for>
+</ul>
+
+
+</f:section>

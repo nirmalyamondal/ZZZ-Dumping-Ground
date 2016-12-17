@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-10-07T12:36:56Z" product-name="learntube_episode">
+		<header/>
+		<body>
+			<trans-unit id="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="sdescription.description">
+				<source>sdescription</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="ialttext.description">
+				<source>ialttext</source>
+			</trans-unit>
+			<trans-unit id="edate.description">
+				<source>edate</source>
+			</trans-unit>
+			<trans-unit id="detailpage.description">
+				<source>detailpage</source>
+			</trans-unit>
+			<trans-unit id="category.description">
+				<source>category</source>
+			</trans-unit>
+			<trans-unit id="sent.description">
+				<source>sent</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

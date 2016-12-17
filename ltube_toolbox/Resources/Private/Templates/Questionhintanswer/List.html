@@ -1,0 +1,27 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<ul id="tx_toolbox_qha">
+	<f:for each="{questionhintanswers}" as="questionhintanswer" iteration="cardIterator">
+		<li id="question{cardIterator.cycle}">
+			<div class='qustion_header'><p><b><f:translate key="question_label" />{cardIterator.cycle}</b></p></div>
+			<div class="qas">
+				<div class='question'><span><f:format.html parseFuncTSPath="lib.parseFunc">{questionhintanswer.question}</f:format.html></span></div>
+				<div class="hints">
+					<f:for each="{questionhintanswer.hint}" as="hint" iteration="hintIterator">
+						<div class="hint" hl="<f:translate key='hint_label' />" hint="{hint.hint}"><f:translate key="hint_label" />{hintIterator.cycle}</div>
+					</f:for>
+				</div> 
+				<div class="answer" al="<f:translate key='answer_label' />"><f:translate key="reveal_answer_button_label" /></div>
+				<div class='hide_answer_hint_div'>
+					<div class='hint_ans_txt'><p></p></div>
+					<div class='hint_ans'><span></span></div>
+				</div>
+				<div class="hide_answer"><f:format.html parseFuncTSPath="lib.parseFunc">{questionhintanswer.answer}</f:format.html></div>
+			</div>
+		</li>
+	</f:for>
+</ul>
+
+</f:section>

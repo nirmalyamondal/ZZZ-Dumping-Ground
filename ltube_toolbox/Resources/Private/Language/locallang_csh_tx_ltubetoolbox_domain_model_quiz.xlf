@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-03T13:45:57Z" product-name="ltube_toolbox">
+		<header/>
+		<body>
+
+			<trans-unit id="question.description">
+				<source>question</source>
+			</trans-unit>
+			<trans-unit id="answer1.description">
+				<source>answer1</source>
+			</trans-unit>
+			<trans-unit id="answer2.description">
+				<source>answer2</source>
+			</trans-unit>
+			<trans-unit id="answer3.description">
+				<source>answer3</source>
+			</trans-unit>
+			<trans-unit id="answer4.description">
+				<source>answer4</source>
+			</trans-unit>
+			<trans-unit id="hint.description">
+				<source>hint</source>
+			</trans-unit>
+			<trans-unit id="right_ans_feedback.description">
+				<source>rightAnsFeedback</source>
+			</trans-unit>
+			<trans-unit id="right_answer.description">
+				<source>rightAnswer</source>
+			</trans-unit>
+			<trans-unit id="parentid.description">
+				<source>parentid</source>
+			</trans-unit>
+			<trans-unit id="parenttable.description">
+				<source>parenttable</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

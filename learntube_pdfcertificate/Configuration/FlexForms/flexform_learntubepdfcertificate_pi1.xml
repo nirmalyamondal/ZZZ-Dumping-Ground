@@ -1,0 +1,242 @@
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+	<langChildren>1</langChildren>
+  </meta>
+<sheets>
+
+	<sDEF>
+	<ROOT>
+	<TCEforms>
+		<sheetTitle>PDF Certificate General Settings</sheetTitle>
+	</TCEforms>
+	<type>array</type>
+	<el>
+
+		<settings.flex_certificate_text1>
+			<TCEforms>
+				<label>Certificate Text1</label>
+				<config>
+					<type>input</type>
+					<size>100</size>
+					<checkbox></checkbox>
+					<!-- <type>text</type>
+					<cols>50</cols>
+                    <rows>2</rows>-->
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_text1>
+
+		<settings.flex_text1_tcolor>
+			<TCEforms>
+				<label>Certificate Text1 Color</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<default>#000000</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.flex_text1_tcolor>
+
+		<settings.flex_certificate_text2>
+			<TCEforms>
+				<label>Certificate Text2</label>
+				<config>
+					<type>input</type>
+					<size>100</size>	
+					<checkbox></checkbox>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_text2>
+
+		<settings.flex_text2_tcolor>
+			<TCEforms>
+				<label>Certificate Text2 Color</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<default>#000000</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.flex_text2_tcolor>
+
+		<settings.flex_certificate_title>
+			<TCEforms>
+				<label>Certificate Title</label>
+				<config>
+					<type>input</type>
+					<size>100</size>
+					<checkbox></checkbox>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_title>
+		
+		<settings.flex_title_tcolor>
+			<TCEforms>
+				<label>Certificate Title Color</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<default>#000000</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.flex_title_tcolor>
+
+		<settings.flex_username_tcolor>
+			<TCEforms>
+				<label>Certificate User Name Color</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<default>#000000</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.flex_username_tcolor>
+
+		<settings.flex_date_tcolor>
+			<TCEforms>
+				<label>Certificate Date Color</label>
+				<config>
+					<type>input</type>
+					<size>6</size>
+					<default>#000000</default>
+					<eval></eval>
+					<max>7</max>
+				</config>
+			</TCEforms>
+		</settings.flex_date_tcolor>
+
+		<settings.flex_certificate_image>
+			<TCEforms>
+				<label>Certificate Background Image</label>
+				<config>
+					<type>group</type>
+					<internal_type>file</internal_type>
+					<allowed>jpg,gif,png</allowed>
+					<max_size>2000</max_size>
+					<uploadfolder>uploads/tx_learntubepdfcertificate</uploadfolder>
+					<show_thumbs>1</show_thumbs>
+					<size>1</size>
+					<minitems>0</minitems>
+					<maxitems>1</maxitems>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_image>
+
+		<settings.flex_certificate_linklabel>
+			<TCEforms>
+				<label>Certificate Download Link Label</label>
+				<config>
+					<type>input</type>
+					<size>100</size>
+					<checkbox></checkbox>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_linklabel>
+
+		<!--settings.flex_certificate_group>
+			<TCEforms>
+				<label>Print Frontend Group Name</label>
+				<config>
+					<type>check</type>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_group-->
+		
+		<!--settings.flex_certificate_vcode>
+			<TCEforms>
+				<label>Verification Code</label>
+				<config>
+					<type>check</type>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_vcode-->
+
+		<settings.flex_storage_folder>
+			<TCEforms>
+			<exclude>1</exclude>
+			<label>Certificate Storage Folder (Default: fileadmin/course_certificate/)</label>
+			<config>
+				<type>input</type>
+				<size>100</size>
+				<eval>trim</eval>
+				<default>fileadmin/course_certificate/</default>
+			</config>
+		  </TCEforms>
+		</settings.flex_storage_folder>
+
+		<settings.flex_storage_page>
+			<TCEforms>
+			<exclude>1</exclude>
+			<label>Certificate Storage Page</label>
+			<config>
+				<type>group</type>
+				<internal_type>db</internal_type>
+				<allowed>pages</allowed>
+				<size>1</size>
+				<maxitems>1</maxitems>
+				<minitems>1</minitems>
+				<show_thumbs>1</show_thumbs>
+			</config>
+		  </TCEforms>
+		</settings.flex_storage_page>
+
+		<!--settings.flex_regenerate_certificate>
+			<TCEforms>
+				<label>Re-Generate Certificate on Page Load (Slow Down System)</label>
+				<config>
+					<type>check</type>
+				</config>
+			</TCEforms>
+		</settings.flex_regenerate_certificate-->
+
+	</el>
+	</ROOT>
+	</sDEF>
+
+	<tDEF>
+	<ROOT>
+	<TCEforms>
+		<sheetTitle>FB Share Settings</sheetTitle>
+	</TCEforms>
+	<type>array</type>
+	<el>
+
+		<settings.flex_certificate_fbtitle>
+			<TCEforms>
+				<label>Facebook Share Title</label>
+				<config>
+					<type>input</type>
+					<size>100</size>
+					<checkbox></checkbox>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_fbtitle>
+
+		<settings.flex_certificate_fbtext>
+			<TCEforms>
+				<label>Facebook Share Text</label>
+				<config>
+					<type>text</type>
+					<cols>50</cols>
+                    <rows>2</rows>
+					<checkbox></checkbox>
+				</config>
+			</TCEforms>
+		</settings.flex_certificate_fbtext>
+
+	</el>
+	</ROOT>
+	</tDEF>
+
+
+</sheets>
+</T3DataStructure>
